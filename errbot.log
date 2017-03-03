@@ -40332,3 +40332,163 @@ The plugin weatherinfo asks for Errbot with a maximal version of 4.2.2 while Err
 2017-03-03 17:35:30,589 DEBUG    errbot.botplugin          Previous timer found and removed
 2017-03-03 17:35:30,589 DEBUG    root                      Poll the git repos
 2017-03-03 17:37:09,541 DEBUG    errbot.backends.slack     No event handler available for reconnect_url, ignoring this event
+2017-03-03 17:37:41,263 DEBUG    errbot.botplugin          Previous timer found and removed
+2017-03-03 17:37:41,264 DEBUG    root                      Poll the git repos
+2017-03-03 17:39:09,630 DEBUG    errbot.backends.slack     No event handler available for reconnect_url, ignoring this event
+2017-03-03 17:42:09,543 DEBUG    errbot.backends.slack     No event handler available for reconnect_url, ignoring this event
+2017-03-03 17:44:09,635 DEBUG    errbot.backends.slack     No event handler available for reconnect_url, ignoring this event
+2017-03-03 17:45:30,622 DEBUG    errbot.botplugin          Previous timer found and removed
+2017-03-03 17:45:30,623 DEBUG    root                      Poll the git repos
+2017-03-03 17:45:58,675 DEBUG    errbot.backends.slack     Ignoring non-event message: {}
+2017-03-03 17:45:58,676 ERROR    errbot.backends.slack     Error reading from RTM stream:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py", line 378, in serve_once
+    for message in self.sc.rtm_read():
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/slackclient/_client.py", line 120, in rtm_read
+    json_data = self.server.websocket_safe_read()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/slackclient/_server.py", line 138, in websocket_safe_read
+    data += "{0}\n".format(self.websocket.recv())
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/websocket/_core.py", line 293, in recv
+    opcode, data = self.recv_data()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/websocket/_core.py", line 310, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/websocket/_core.py", line 323, in recv_data_frame
+    frame = self.recv_frame()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/websocket/_core.py", line 357, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/websocket/_abnf.py", line 336, in recv_frame
+    self.recv_header()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/websocket/_abnf.py", line 286, in recv_header
+    header = self.recv_strict(2)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/websocket/_abnf.py", line 371, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/websocket/_core.py", line 427, in _recv
+    return recv(self.sock, bufsize)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/websocket/_socket.py", line 93, in recv
+    "Connection is already closed.")
+websocket._exceptions.WebSocketConnectionClosedException: Connection is already closed.
+2017-03-03 17:45:58,680 DEBUG    errbot.backends.slack     Triggering disconnect callback
+2017-03-03 17:45:58,680 INFO     errbot.core               Disconnect callback, deactivating all the plugins.
+2017-03-03 17:45:58,681 DEBUG    errbot.botplugin          You still have active pollers at deactivation stage, I cleaned them up for you.
+2017-03-03 17:45:58,682 DEBUG    errbot.storage            Closed storage 'VersionChecker'
+2017-03-03 17:45:58,683 DEBUG    errbot.storage            Closed storage 'Help'
+2017-03-03 17:45:58,683 DEBUG    errbot.storage            Closed storage 'Utils'
+2017-03-03 17:45:58,684 DEBUG    errbot.storage            Closed storage 'HelloWorld'
+2017-03-03 17:45:58,685 DEBUG    errbot.storage            Closed storage 'Flows'
+2017-03-03 17:45:58,686 DEBUG    errbot.storage            Closed storage 'Health'
+2017-03-03 17:45:58,687 DEBUG    errbot.storage            Closed storage 'Plugins'
+2017-03-03 17:45:58,687 DEBUG    errbot.storage            Closed storage 'Example'
+2017-03-03 17:45:58,688 DEBUG    errbot.storage            Closed storage 'Trail'
+2017-03-03 17:45:58,689 DEBUG    errbot.storage            Closed storage 'ChatRoom'
+2017-03-03 17:45:58,689 DEBUG    errbot.storage            Closed storage 'DnsUtils'
+2017-03-03 17:45:58,690 DEBUG    errbot.storage            Closed storage 'Backup'
+2017-03-03 17:45:58,691 DEBUG    errbot.botplugin          You still have active pollers at deactivation stage, I cleaned them up for you.
+2017-03-03 17:45:58,691 DEBUG    errbot.storage            Closed storage 'GitBot'
+2017-03-03 17:45:58,693 DEBUG    errbot.storage            Closed storage 'ACLS'
+2017-03-03 17:45:58,694 DEBUG    errbot.core               Removing command filter: acls
+2017-03-03 17:45:58,695 DEBUG    errbot.storage            Closed storage 'JenkinsBot'
+2017-03-03 17:45:58,695 DEBUG    errbot.storage            Closed storage 'TimeBot'
+2017-03-03 17:45:58,696 INFO     errbot.backends.base      Reconnecting in 1 seconds (0 attempted reconnections so far)
+2017-03-03 17:45:59,697 INFO     errbot.backends.slack     Verifying authentication token
+2017-03-03 17:45:59,700 DEBUG    requests.packages.urllib3.connectionpool Starting new HTTPS connection (1): slack.com
+2017-03-03 17:45:59,961 DEBUG    requests.packages.urllib3.connectionpool https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2017-03-03 17:45:59,964 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/base.py", line 700, in serve_forever
+    if self.serve_once():
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py", line 361, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2017-03-03 17:45:59,967 INFO     errbot.backends.base      Reconnecting in 4.1869424333884755 seconds (1 attempted reconnections so far)
+2017-03-03 17:46:04,155 INFO     errbot.backends.slack     Verifying authentication token
+2017-03-03 17:46:04,157 DEBUG    requests.packages.urllib3.connectionpool Starting new HTTPS connection (1): slack.com
+2017-03-03 17:46:04,353 DEBUG    requests.packages.urllib3.connectionpool https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2017-03-03 17:46:04,356 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/base.py", line 700, in serve_forever
+    if self.serve_once():
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py", line 361, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2017-03-03 17:46:04,356 INFO     errbot.backends.base      Reconnecting in 9.865431212715805 seconds (2 attempted reconnections so far)
+2017-03-03 17:46:14,223 INFO     errbot.backends.slack     Verifying authentication token
+2017-03-03 17:46:14,226 DEBUG    requests.packages.urllib3.connectionpool Starting new HTTPS connection (1): slack.com
+2017-03-03 17:46:14,857 DEBUG    requests.packages.urllib3.connectionpool https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2017-03-03 17:46:14,861 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/base.py", line 700, in serve_forever
+    if self.serve_once():
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py", line 361, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2017-03-03 17:46:14,861 INFO     errbot.backends.base      Reconnecting in 20.008080075746072 seconds (3 attempted reconnections so far)
+2017-03-03 17:46:34,871 INFO     errbot.backends.slack     Verifying authentication token
+2017-03-03 17:46:34,874 DEBUG    requests.packages.urllib3.connectionpool Starting new HTTPS connection (1): slack.com
+2017-03-03 17:46:35,461 DEBUG    requests.packages.urllib3.connectionpool https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2017-03-03 17:46:35,465 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/base.py", line 700, in serve_forever
+    if self.serve_once():
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py", line 361, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2017-03-03 17:46:35,465 INFO     errbot.backends.base      Reconnecting in 36.08570907308926 seconds (4 attempted reconnections so far)
+2017-03-03 17:47:11,554 INFO     errbot.backends.slack     Verifying authentication token
+2017-03-03 17:47:11,557 DEBUG    requests.packages.urllib3.connectionpool Starting new HTTPS connection (1): slack.com
+2017-03-03 17:47:12,201 DEBUG    requests.packages.urllib3.connectionpool https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2017-03-03 17:47:12,205 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/base.py", line 700, in serve_forever
+    if self.serve_once():
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py", line 361, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2017-03-03 17:47:12,205 INFO     errbot.backends.base      Reconnecting in 63.630722441658975 seconds (5 attempted reconnections so far)
+2017-03-03 17:48:15,839 INFO     errbot.backends.slack     Verifying authentication token
+2017-03-03 17:48:15,842 DEBUG    requests.packages.urllib3.connectionpool Starting new HTTPS connection (1): slack.com
+2017-03-03 17:48:16,773 DEBUG    requests.packages.urllib3.connectionpool https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2017-03-03 17:48:16,776 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/base.py", line 700, in serve_forever
+    if self.serve_once():
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py", line 361, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2017-03-03 17:48:16,776 INFO     errbot.backends.base      Reconnecting in 113.8680531110581 seconds (6 attempted reconnections so far)
+2017-03-03 17:50:10,651 INFO     errbot.backends.slack     Verifying authentication token
+2017-03-03 17:50:10,654 DEBUG    requests.packages.urllib3.connectionpool Starting new HTTPS connection (1): slack.com
+2017-03-03 17:50:11,332 DEBUG    requests.packages.urllib3.connectionpool https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2017-03-03 17:50:11,336 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/base.py", line 700, in serve_forever
+    if self.serve_once():
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py", line 361, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2017-03-03 17:50:11,337 INFO     errbot.backends.base      Reconnecting in 202.09721639536477 seconds (7 attempted reconnections so far)
+2017-03-03 17:53:33,443 INFO     errbot.backends.slack     Verifying authentication token
+2017-03-03 17:53:33,450 DEBUG    requests.packages.urllib3.connectionpool Starting new HTTPS connection (1): slack.com
+2017-03-03 17:53:33,661 DEBUG    requests.packages.urllib3.connectionpool https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2017-03-03 17:53:33,665 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/base.py", line 700, in serve_forever
+    if self.serve_once():
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py", line 361, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2017-03-03 17:53:33,665 INFO     errbot.backends.base      Reconnecting in 354.76446261422467 seconds (8 attempted reconnections so far)
+2017-03-03 17:55:30,653 DEBUG    errbot.botplugin          Previous timer found and removed
+2017-03-03 17:55:30,653 DEBUG    root                      Poll the git repos
+2017-03-03 17:59:28,446 INFO     errbot.backends.slack     Verifying authentication token
+2017-03-03 17:59:28,448 DEBUG    requests.packages.urllib3.connectionpool Starting new HTTPS connection (1): slack.com
+2017-03-03 17:59:29,028 DEBUG    requests.packages.urllib3.connectionpool https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2017-03-03 17:59:29,042 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/base.py", line 700, in serve_forever
+    if self.serve_once():
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py", line 361, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2017-03-03 17:59:29,043 INFO     errbot.backends.base      Reconnecting in 602.4807626593494 seconds (9 attempted reconnections so far)
+2017-03-03 18:05:30,683 DEBUG    errbot.botplugin          Previous timer found and removed
+2017-03-03 18:05:30,683 DEBUG    root                      Poll the git repos

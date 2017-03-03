@@ -17,7 +17,7 @@ BOT_ADMINS = ('@shashank', )  # !! Don't leave that to "CHANGE ME" if you connec
 BOT_ALT_PREFIXES = ('@migration_bot',)
 
 BOT_IDENTITY = {
-    'token': 'xoxb-148530697060-hVFV0xHk0Qn3kq3opnO7YvcG',
+    'token': 'xoxb-xxx',
 }
 
 CHATROOM_PRESENCE = () ;
