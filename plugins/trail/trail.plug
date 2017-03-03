@@ -1,0 +1,14 @@
+[Core]
+name = trail
+module = trail
+
+[Documentation]
+description = trying errbot
+
+[Python]
+version = 3
+
+[Errbot]
+min = 4.3.6
+max = 4.3.6
+

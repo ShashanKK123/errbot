@@ -1,0 +1,1445 @@
+2017-02-07 10:03:12,669 INFO     errbot.specific_plugin_manager storage search paths {'/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/storage'}
+2017-02-07 10:03:12,671 INFO     errbot.specific_plugin_manager Found those plugings available:
+2017-02-07 10:03:12,671 INFO     errbot.specific_plugin_manager 	    Memory  (/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/storage/memory.py)
+2017-02-07 10:03:12,671 INFO     errbot.specific_plugin_manager 	     Shelf  (/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/storage/shelf.py)
+2017-02-07 10:03:12,672 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2017-02-07 10:03:12,672 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2017-02-07 10:03:12,673 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-02-07 10:03:12,673 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2017-02-07 10:03:12,675 DEBUG    errbot.specific_plugin_manager Class to load ShelfStoragePlugin
+2017-02-07 10:03:12,675 DEBUG    errbot.storage            Opening storage 'repomgr'
+2017-02-07 10:03:12,675 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/repomgr.db
+2017-02-07 10:03:12,678 DEBUG    errbot.storage            Opening storage 'core'
+2017-02-07 10:03:12,678 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/core.db
+2017-02-07 10:03:12,680 INFO     errbot.specific_plugin_manager backends search paths {'/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends'}
+2017-02-07 10:03:12,686 INFO     errbot.specific_plugin_manager Found those plugings available:
+2017-02-07 10:03:12,686 INFO     errbot.specific_plugin_manager 	   Graphic  (/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/graphic.py)
+2017-02-07 10:03:12,687 INFO     errbot.specific_plugin_manager 	   Hipchat  (/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/hipchat.py)
+2017-02-07 10:03:12,687 INFO     errbot.specific_plugin_manager 	       IRC  (/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/irc.py)
+2017-02-07 10:03:12,687 INFO     errbot.specific_plugin_manager 	      Null  (/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/null.py)
+2017-02-07 10:03:12,687 INFO     errbot.specific_plugin_manager 	     Slack  (/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/slack.py)
+2017-02-07 10:03:12,687 INFO     errbot.specific_plugin_manager 	  Telegram  (/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/telegram_messenger.py)
+2017-02-07 10:03:12,687 INFO     errbot.specific_plugin_manager 	      Test  (/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/test.py)
+2017-02-07 10:03:12,694 INFO     errbot.specific_plugin_manager 	      Text  (/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/text.py)
+2017-02-07 10:03:12,694 INFO     errbot.specific_plugin_manager 	      XMPP  (/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/xmpp.py)
+2017-02-07 10:03:12,694 INFO     errbot.bootstrap          Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2017-02-07 10:03:12,694 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2017-02-07 10:03:12,695 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-02-07 10:03:12,696 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-02-07 10:03:12,696 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-02-07 10:03:12,697 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-02-07 10:03:12,697 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-02-07 10:03:12,698 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-02-07 10:03:12,698 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-02-07 10:03:12,699 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-02-07 10:03:12,700 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2017-02-07 10:03:12,731 DEBUG    errbot.specific_plugin_manager Class to load TextBackend
+2017-02-07 10:03:12,731 DEBUG    errbot.core               ErrBot init.
+2017-02-07 10:03:12,731 DEBUG    errbot.backends.base      Backend init.
+2017-02-07 10:03:12,733 DEBUG    errbot.core               created a thread pool of size 10.
+2017-02-07 10:03:12,735 DEBUG    errbot.backends.text      Text Backend Init.
+2017-02-07 10:03:12,744 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.smart_strong".
+2017-02-07 10:03:12,745 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
+2017-02-07 10:03:12,745 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.fenced_code".
+2017-02-07 10:03:12,745 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2017-02-07 10:03:12,746 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.footnotes".
+2017-02-07 10:03:12,747 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2017-02-07 10:03:12,752 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.attr_list".
+2017-02-07 10:03:12,752 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2017-02-07 10:03:12,753 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.def_list".
+2017-02-07 10:03:12,753 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2017-02-07 10:03:12,754 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.tables".
+2017-02-07 10:03:12,755 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2017-02-07 10:03:12,755 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.abbr".
+2017-02-07 10:03:12,755 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2017-02-07 10:03:12,756 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2017-02-07 10:03:12,756 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2017-02-07 10:03:12,790 DEBUG    errbot.core               Initializing backend storage
+2017-02-07 10:03:12,790 DEBUG    errbot.storage            Opening storage 'text_backend'
+2017-02-07 10:03:12,791 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/text_backend.db
+2017-02-07 10:03:12,796 DEBUG    errbot.plugin_manager     All plugin roots:
+2017-02-07 10:03:12,796 DEBUG    errbot.plugin_manager     -> /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins
+2017-02-07 10:03:12,798 DEBUG    errbot.plugin_manager     Add /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins to sys.path
+2017-02-07 10:03:12,798 DEBUG    errbot.plugin_manager     -> /Users/shashank.koppar/Documents/errbot/plugins/plugins/err-example
+2017-02-07 10:03:12,798 DEBUG    errbot.plugin_manager     Add /Users/shashank.koppar/Documents/errbot/plugins/plugins/err-example to sys.path
+2017-02-07 10:03:12,798 DEBUG    errbot.plugin_manager     /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins has no requirements.txt file
+2017-02-07 10:03:12,798 DEBUG    errbot.plugin_manager     /Users/shashank.koppar/Documents/errbot/plugins/plugins/err-example has no requirements.txt file
+2017-02-07 10:03:12,974 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2017-02-07 10:03:12,977 DEBUG    errbot.bootstrap          Start serving commands from the text backend
+2017-02-07 10:03:12,978 INFO     errbot.core               Activate internal commands
+2017-02-07 10:03:12,978 INFO     errbot.plugin_manager     Activate bot plugins...
+2017-02-07 10:03:12,978 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2017-02-07 10:03:12,978 DEBUG    errbot.plugin_manager     Plugin ACLs has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-02-07 10:03:12,979 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-02-07 10:03:12,980 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins/templates]
+2017-02-07 10:03:12,980 DEBUG    errbot.botplugin          Init storage for ACLS
+2017-02-07 10:03:12,980 DEBUG    errbot.storage            Opening storage 'ACLS'
+2017-02-07 10:03:12,980 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/ACLS.db
+2017-02-07 10:03:12,981 DEBUG    errbot.core               Adding command filter: acls
+2017-02-07 10:03:12,981 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2017-02-07 10:03:12,981 INFO     errbot.plugin_manager     Activate plugin: Backup
+2017-02-07 10:03:12,981 DEBUG    errbot.plugin_manager     Plugin Backup has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-02-07 10:03:12,981 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-02-07 10:03:12,981 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins/templates]
+2017-02-07 10:03:12,982 DEBUG    errbot.botplugin          Init storage for Backup
+2017-02-07 10:03:12,982 DEBUG    errbot.storage            Opening storage 'Backup'
+2017-02-07 10:03:12,982 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Backup.db
+2017-02-07 10:03:12,982 DEBUG    errbot.core               Adding command : backup -> backup
+2017-02-07 10:03:12,982 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2017-02-07 10:03:12,983 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2017-02-07 10:03:12,983 DEBUG    errbot.plugin_manager     Plugin ChatRoom has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-02-07 10:03:12,983 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-02-07 10:03:12,983 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins/templates]
+2017-02-07 10:03:12,983 DEBUG    errbot.botplugin          Init storage for ChatRoom
+2017-02-07 10:03:12,983 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2017-02-07 10:03:12,983 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/ChatRoom.db
+2017-02-07 10:03:12,984 DEBUG    errbot.core               Adding command : room_create -> room_create
+2017-02-07 10:03:12,984 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy
+2017-02-07 10:03:12,984 DEBUG    errbot.core               Adding command : room_invite -> room_invite
+2017-02-07 10:03:12,984 DEBUG    errbot.core               Adding command : room_join -> room_join
+2017-02-07 10:03:12,984 DEBUG    errbot.core               Adding command : room_leave -> room_leave
+2017-02-07 10:03:12,984 DEBUG    errbot.core               Adding command : room_list -> room_list
+2017-02-07 10:03:12,984 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants
+2017-02-07 10:03:12,984 DEBUG    errbot.core               Adding command : room_topic -> room_topic
+2017-02-07 10:03:12,984 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2017-02-07 10:03:12,985 INFO     errbot.plugin_manager     Activate plugin: Flows
+2017-02-07 10:03:12,985 DEBUG    errbot.plugin_manager     Plugin Flows has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-02-07 10:03:12,985 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-02-07 10:03:12,985 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins/templates]
+2017-02-07 10:03:12,985 DEBUG    errbot.botplugin          Init storage for Flows
+2017-02-07 10:03:12,985 DEBUG    errbot.storage            Opening storage 'Flows'
+2017-02-07 10:03:12,985 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Flows.db
+2017-02-07 10:03:12,987 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill
+2017-02-07 10:03:12,987 DEBUG    errbot.core               Adding command : flows_list -> flows_list
+2017-02-07 10:03:12,987 DEBUG    errbot.core               Adding command : flows_show -> flows_show
+2017-02-07 10:03:12,988 DEBUG    errbot.core               Adding command : flows_start -> flows_start
+2017-02-07 10:03:12,988 DEBUG    errbot.core               Adding command : flows_status -> flows_status
+2017-02-07 10:03:12,988 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop
+2017-02-07 10:03:12,988 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2017-02-07 10:03:12,988 INFO     errbot.plugin_manager     Activate plugin: Health
+2017-02-07 10:03:12,988 DEBUG    errbot.plugin_manager     Plugin Health has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-02-07 10:03:12,988 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-02-07 10:03:12,989 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins/templates]
+2017-02-07 10:03:12,989 DEBUG    errbot.botplugin          Init storage for Health
+2017-02-07 10:03:12,989 DEBUG    errbot.storage            Opening storage 'Health'
+2017-02-07 10:03:12,989 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Health.db
+2017-02-07 10:03:12,989 DEBUG    errbot.core               Adding command : restart -> restart
+2017-02-07 10:03:12,989 DEBUG    errbot.core               Adding command : shutdown -> shutdown
+2017-02-07 10:03:12,989 DEBUG    errbot.core               Adding command : status -> status
+2017-02-07 10:03:12,989 DEBUG    errbot.core               Adding command : status_gc -> status_gc
+2017-02-07 10:03:12,989 DEBUG    errbot.core               Adding command : status_load -> status_load
+2017-02-07 10:03:12,989 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins
+2017-02-07 10:03:12,990 DEBUG    errbot.core               Adding command : uptime -> uptime
+2017-02-07 10:03:12,990 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2017-02-07 10:03:12,990 INFO     errbot.plugin_manager     Activate plugin: Help
+2017-02-07 10:03:12,990 DEBUG    errbot.plugin_manager     Plugin Help has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-02-07 10:03:12,990 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-02-07 10:03:12,990 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins/templates]
+2017-02-07 10:03:12,990 DEBUG    errbot.botplugin          Init storage for Help
+2017-02-07 10:03:12,991 DEBUG    errbot.storage            Opening storage 'Help'
+2017-02-07 10:03:12,991 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Help.db
+2017-02-07 10:03:12,991 DEBUG    errbot.core               Adding command : about -> about
+2017-02-07 10:03:12,991 DEBUG    errbot.core               Adding command : apropos -> apropos
+2017-02-07 10:03:12,991 DEBUG    errbot.core               Adding command : help -> help
+2017-02-07 10:03:12,992 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2017-02-07 10:03:12,993 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2017-02-07 10:03:12,993 DEBUG    errbot.plugin_manager     Plugin Plugins has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-02-07 10:03:12,993 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-02-07 10:03:12,994 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins/templates]
+2017-02-07 10:03:12,994 DEBUG    errbot.botplugin          Init storage for Plugins
+2017-02-07 10:03:12,994 DEBUG    errbot.storage            Opening storage 'Plugins'
+2017-02-07 10:03:12,994 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Plugins.db
+2017-02-07 10:03:12,995 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate
+2017-02-07 10:03:12,995 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist
+2017-02-07 10:03:12,995 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config
+2017-02-07 10:03:12,996 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate
+2017-02-07 10:03:12,996 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload
+2017-02-07 10:03:12,996 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist
+2017-02-07 10:03:12,996 DEBUG    errbot.core               Adding command : repos -> repos
+2017-02-07 10:03:12,996 DEBUG    errbot.core               Adding command : repos_install -> repos_install
+2017-02-07 10:03:12,996 DEBUG    errbot.core               Adding command : repos_search -> repos_search
+2017-02-07 10:03:12,996 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall
+2017-02-07 10:03:12,996 DEBUG    errbot.core               Adding command : repos_update -> repos_update
+2017-02-07 10:03:12,997 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2017-02-07 10:03:12,997 INFO     errbot.plugin_manager     Activate plugin: Utils
+2017-02-07 10:03:12,997 DEBUG    errbot.plugin_manager     Plugin Utils has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-02-07 10:03:12,998 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-02-07 10:03:12,998 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins/templates]
+2017-02-07 10:03:12,998 DEBUG    errbot.botplugin          Init storage for Utils
+2017-02-07 10:03:12,998 DEBUG    errbot.storage            Opening storage 'Utils'
+2017-02-07 10:03:12,999 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Utils.db
+2017-02-07 10:03:13,000 DEBUG    errbot.core               Adding command : echo -> echo
+2017-02-07 10:03:13,000 DEBUG    errbot.core               Adding command : history -> history
+2017-02-07 10:03:13,000 DEBUG    errbot.core               Adding command : log_tail -> log_tail
+2017-02-07 10:03:13,000 DEBUG    errbot.core               Adding command : render_test -> render_test
+2017-02-07 10:03:13,000 DEBUG    errbot.core               Adding command : whoami -> whoami
+2017-02-07 10:03:13,000 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2017-02-07 10:03:13,001 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2017-02-07 10:03:13,001 DEBUG    errbot.plugin_manager     Plugin VersionChecker has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-02-07 10:03:13,001 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-02-07 10:03:13,001 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins/templates]
+2017-02-07 10:03:13,001 INFO     errbot.plugins.VersionChecker Skip version checking under text mode
+2017-02-07 10:03:13,001 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2017-02-07 10:03:13,002 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2017-02-07 10:03:13,002 DEBUG    errbot.plugin_manager     Plugin Webserver has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-02-07 10:03:13,002 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-02-07 10:03:13,002 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/errbot/core_plugins/templates]
+2017-02-07 10:03:13,002 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2017-02-07 10:03:13,002 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2017-02-07 10:03:13,002 INFO     errbot.core_plugins.wsview Webhook routing echo
+2017-02-07 10:03:13,003 INFO     errbot.plugin_manager     Activate plugin: Example
+2017-02-07 10:03:13,003 DEBUG    errbot.plugin_manager     Plugin Example has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-02-07 10:03:13,003 INFO     errbot.plugin_manager     Activating Example with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-02-07 10:03:13,003 DEBUG    errbot.templating         No templates directory found for this plugin [Looking for /Users/shashank.koppar/Documents/errbot/plugins/plugins/err-example/templates]
+2017-02-07 10:03:13,003 DEBUG    errbot.botplugin          Init storage for Example
+2017-02-07 10:03:13,003 DEBUG    errbot.storage            Opening storage 'Example'
+2017-02-07 10:03:13,003 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Example.db
+2017-02-07 10:03:13,004 DEBUG    errbot.core               Adding command : tryme -> tryme
+2017-02-07 10:03:13,004 INFO     errbot.core_plugins.wsview Checking Example for webhooks
+2017-02-07 10:03:13,004 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2017-02-07 10:03:13,004 INFO     errbot.core               
+2017-02-07 10:03:13,004 INFO     errbot.core               Notifying connection to all the plugins...
+2017-02-07 10:03:13,004 DEBUG    errbot.core               Trigger callback_connect on ACLS
+2017-02-07 10:03:13,004 DEBUG    errbot.core               Trigger callback_connect on Backup
+2017-02-07 10:03:13,004 DEBUG    errbot.core               Trigger callback_connect on ChatRoom
+2017-02-07 10:03:13,004 INFO     errbot.plugins.ChatRoom   Callback_connect
+2017-02-07 10:03:13,004 DEBUG    errbot.core               Trigger callback_connect on Flows
+2017-02-07 10:03:13,004 DEBUG    errbot.core               Trigger callback_connect on Health
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Trigger callback_connect on Help
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Trigger callback_connect on Plugins
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Trigger callback_connect on Utils
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Trigger callback_connect on Example
+2017-02-07 10:03:13,005 INFO     errbot.core               Plugin activation done.
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Triggering callback_presence on Backup
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Triggering callback_presence on Flows
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Triggering callback_presence on Health
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Triggering callback_presence on Help
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Triggering callback_presence on Utils
+2017-02-07 10:03:13,005 DEBUG    errbot.core               Triggering callback_presence on Example
+2017-02-07 10:03:14,802 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-02-07 10:03:14,803 DEBUG    errbot.core               *** username = CHANGE ME
+2017-02-07 10:03:14,803 DEBUG    errbot.core               *** text = !status 
+2017-02-07 10:03:14,803 DEBUG    errbot.plugins.ACLS       Check status for ACLs.
+2017-02-07 10:03:14,803 INFO     errbot.plugins.ACLS       Matching ACL {} against username CHANGE ME for command Health:status
+2017-02-07 10:03:14,803 INFO     errbot.plugins.ACLS       Check if status is admin only command.
+2017-02-07 10:03:14,803 INFO     errbot.core               Processing command 'status' with parameters '' from CHANGE ME
+2017-02-07 10:03:14,804 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-02-07 10:03:14,804 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-02-07 10:03:14,804 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-02-07 10:03:14,804 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-02-07 10:03:14,804 DEBUG    errbot.core               Triggering callback_message on Health
+2017-02-07 10:03:14,804 DEBUG    errbot.core               Triggering callback_message on Help
+2017-02-07 10:03:14,804 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-02-07 10:03:14,804 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-02-07 10:03:14,804 DEBUG    errbot.core               Triggering callback_message on Example
+2017-02-07 10:03:14,805 DEBUG    errbot.flow               Test if the command status is a trigger for an inflight flow ...
+2017-02-07 10:03:14,805 DEBUG    errbot.flow               None matched.
+2017-02-07 10:03:14,823 DEBUG    errbot.flow               Test if the command status is a trigger for an inflight flow ...
+2017-02-07 10:03:14,823 DEBUG    errbot.flow               None matched.
+2017-02-07 10:03:14,824 DEBUG    errbot.flow               Test if the command status is an auto-trigger for any flow ...
+2017-02-07 10:03:18,275 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2017-02-07 10:03:18,275 DEBUG    errbot.core               Triggering callback_presence on Backup
+2017-02-07 10:03:18,275 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2017-02-07 10:03:18,275 DEBUG    errbot.core               Triggering callback_presence on Flows
+2017-02-07 10:03:18,275 DEBUG    errbot.core               Triggering callback_presence on Health
+2017-02-07 10:03:18,275 DEBUG    errbot.core               Triggering callback_presence on Help
+2017-02-07 10:03:18,275 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2017-02-07 10:03:18,275 DEBUG    errbot.core               Triggering callback_presence on Utils
+2017-02-07 10:03:18,275 DEBUG    errbot.core               Triggering callback_presence on Example
+2017-02-07 10:03:18,276 DEBUG    errbot.backends.text      Trigger disconnect callback
+2017-02-07 10:03:18,276 INFO     errbot.core               Disconnect callback, deactivating all the plugins.
+2017-02-07 10:03:18,276 DEBUG    errbot.storage            Closed storage 'Utils'
+2017-02-07 10:03:18,277 DEBUG    errbot.storage            Closed storage 'Flows'
+2017-02-07 10:03:18,278 DEBUG    errbot.storage            Closed storage 'Plugins'
+2017-02-07 10:03:18,279 DEBUG    errbot.storage            Closed storage 'Help'
+2017-02-07 10:03:18,280 DEBUG    errbot.storage            Closed storage 'Health'
+2017-02-07 10:03:18,281 DEBUG    errbot.storage            Closed storage 'Example'
+2017-02-07 10:03:18,282 DEBUG    errbot.storage            Closed storage 'ChatRoom'
+2017-02-07 10:03:18,282 DEBUG    errbot.storage            Closed storage 'ACLS'
+2017-02-07 10:03:18,283 DEBUG    errbot.core               Removing command filter: acls
+2017-02-07 10:03:18,283 DEBUG    errbot.storage            Closed storage 'Backup'
+2017-02-07 10:03:18,284 DEBUG    errbot.backends.text      Trigger shutdown
+2017-02-07 10:03:18,284 DEBUG    errbot.storage            Closed storage 'text_backend'
+2017-02-07 10:03:18,284 INFO     errbot.plugin_manager     Shutdown.
+2017-02-07 10:03:18,284 DEBUG    errbot.storage            Closed storage 'core'
+2017-02-07 10:03:18,284 INFO     errbot.plugin_manager     Bye.
+2017-02-07 10:03:18,284 DEBUG    errbot.storage            Closed storage 'repomgr'
+2017-02-07 10:03:18,284 INFO     errbot.cli                Process exiting
+2017-03-02 14:23:20,425 INFO     errbot.specific_plugin_manager storage search paths {'/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage'}
+2017-03-02 14:23:20,427 INFO     errbot.specific_plugin_manager Found those plugings available:
+2017-03-02 14:23:20,427 INFO     errbot.specific_plugin_manager 	    Memory  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/memory.py)
+2017-03-02 14:23:20,427 INFO     errbot.specific_plugin_manager 	     Shelf  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/shelf.py)
+2017-03-02 14:23:20,428 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2017-03-02 14:23:20,428 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2017-03-02 14:23:20,429 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:23:20,430 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2017-03-02 14:23:20,432 DEBUG    errbot.specific_plugin_manager Class to load ShelfStoragePlugin
+2017-03-02 14:23:20,432 DEBUG    errbot.storage            Opening storage 'repomgr'
+2017-03-02 14:23:20,433 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/repomgr.db
+2017-03-02 14:23:20,436 DEBUG    errbot.storage            Opening storage 'core'
+2017-03-02 14:23:20,436 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/core.db
+2017-03-02 14:23:20,439 INFO     errbot.specific_plugin_manager backends search paths {'/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends'}
+2017-03-02 14:23:20,447 INFO     errbot.specific_plugin_manager Found those plugings available:
+2017-03-02 14:23:20,447 INFO     errbot.specific_plugin_manager 	   Graphic  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/graphic.py)
+2017-03-02 14:23:20,447 INFO     errbot.specific_plugin_manager 	   Hipchat  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/hipchat.py)
+2017-03-02 14:23:20,448 INFO     errbot.specific_plugin_manager 	       IRC  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/irc.py)
+2017-03-02 14:23:20,448 INFO     errbot.specific_plugin_manager 	      Null  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/null.py)
+2017-03-02 14:23:20,448 INFO     errbot.specific_plugin_manager 	     Slack  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py)
+2017-03-02 14:23:20,448 INFO     errbot.specific_plugin_manager 	  Telegram  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/telegram_messenger.py)
+2017-03-02 14:23:20,448 INFO     errbot.specific_plugin_manager 	      Test  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/test.py)
+2017-03-02 14:23:20,449 INFO     errbot.specific_plugin_manager 	      Text  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/text.py)
+2017-03-02 14:23:20,449 INFO     errbot.specific_plugin_manager 	      XMPP  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/xmpp.py)
+2017-03-02 14:23:20,449 INFO     errbot.bootstrap          Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2017-03-02 14:23:20,449 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2017-03-02 14:23:20,450 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:23:20,451 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:23:20,451 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:23:20,452 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:23:20,452 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:23:20,453 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:23:20,453 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:23:20,454 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:23:20,454 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2017-03-02 14:23:20,513 DEBUG    errbot.specific_plugin_manager Class to load TextBackend
+2017-03-02 14:23:20,513 DEBUG    errbot.core               ErrBot init.
+2017-03-02 14:23:20,513 DEBUG    errbot.backends.base      Backend init.
+2017-03-02 14:23:20,516 DEBUG    errbot.core               created a thread pool of size 10.
+2017-03-02 14:23:20,518 DEBUG    errbot.backends.text      Text Backend Init.
+2017-03-02 14:23:20,532 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.smart_strong".
+2017-03-02 14:23:20,533 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
+2017-03-02 14:23:20,534 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.fenced_code".
+2017-03-02 14:23:20,534 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2017-03-02 14:23:20,536 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.footnotes".
+2017-03-02 14:23:20,537 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2017-03-02 14:23:20,543 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.attr_list".
+2017-03-02 14:23:20,543 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2017-03-02 14:23:20,545 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.def_list".
+2017-03-02 14:23:20,545 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2017-03-02 14:23:20,546 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.tables".
+2017-03-02 14:23:20,546 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2017-03-02 14:23:20,547 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.abbr".
+2017-03-02 14:23:20,548 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2017-03-02 14:23:20,548 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2017-03-02 14:23:20,549 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2017-03-02 14:23:20,570 DEBUG    errbot.core               Initializing backend storage
+2017-03-02 14:23:20,571 DEBUG    errbot.storage            Opening storage 'text_backend'
+2017-03-02 14:23:20,571 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/text_backend.db
+2017-03-02 14:23:20,573 DEBUG    errbot.plugin_manager     All plugin roots:
+2017-03-02 14:23:20,574 DEBUG    errbot.plugin_manager     -> /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins
+2017-03-02 14:23:20,575 DEBUG    errbot.plugin_manager     Add /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins to sys.path
+2017-03-02 14:23:20,575 DEBUG    errbot.plugin_manager     /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins has no requirements.txt file
+2017-03-02 14:23:20,828 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2017-03-02 14:23:20,830 DEBUG    errbot.bootstrap          Start serving commands from the text backend
+2017-03-02 14:23:20,830 INFO     errbot.core               Activate internal commands
+2017-03-02 14:23:20,830 INFO     errbot.plugin_manager     Activate bot plugins...
+2017-03-02 14:23:20,830 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2017-03-02 14:23:20,830 DEBUG    errbot.plugin_manager     Plugin ACLs has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:23:20,831 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:23:20,831 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:23:20,831 DEBUG    errbot.botplugin          Init storage for ACLS
+2017-03-02 14:23:20,831 DEBUG    errbot.storage            Opening storage 'ACLS'
+2017-03-02 14:23:20,831 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/ACLS.db
+2017-03-02 14:23:20,832 DEBUG    errbot.core               Adding command filter: acls
+2017-03-02 14:23:20,832 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2017-03-02 14:23:20,833 INFO     errbot.plugin_manager     Activate plugin: Backup
+2017-03-02 14:23:20,833 DEBUG    errbot.plugin_manager     Plugin Backup has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:23:20,833 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:23:20,833 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:23:20,833 DEBUG    errbot.botplugin          Init storage for Backup
+2017-03-02 14:23:20,833 DEBUG    errbot.storage            Opening storage 'Backup'
+2017-03-02 14:23:20,833 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Backup.db
+2017-03-02 14:23:20,834 DEBUG    errbot.core               Adding command : backup -> backup
+2017-03-02 14:23:20,834 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2017-03-02 14:23:20,834 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2017-03-02 14:23:20,835 DEBUG    errbot.plugin_manager     Plugin ChatRoom has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:23:20,835 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:23:20,835 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:23:20,835 DEBUG    errbot.botplugin          Init storage for ChatRoom
+2017-03-02 14:23:20,835 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2017-03-02 14:23:20,835 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/ChatRoom.db
+2017-03-02 14:23:20,836 DEBUG    errbot.core               Adding command : room_create -> room_create
+2017-03-02 14:23:20,836 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy
+2017-03-02 14:23:20,836 DEBUG    errbot.core               Adding command : room_invite -> room_invite
+2017-03-02 14:23:20,836 DEBUG    errbot.core               Adding command : room_join -> room_join
+2017-03-02 14:23:20,836 DEBUG    errbot.core               Adding command : room_leave -> room_leave
+2017-03-02 14:23:20,836 DEBUG    errbot.core               Adding command : room_list -> room_list
+2017-03-02 14:23:20,836 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants
+2017-03-02 14:23:20,836 DEBUG    errbot.core               Adding command : room_topic -> room_topic
+2017-03-02 14:23:20,836 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2017-03-02 14:23:20,837 INFO     errbot.plugin_manager     Activate plugin: Flows
+2017-03-02 14:23:20,837 DEBUG    errbot.plugin_manager     Plugin Flows has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:23:20,837 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:23:20,837 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:23:20,837 DEBUG    errbot.botplugin          Init storage for Flows
+2017-03-02 14:23:20,837 DEBUG    errbot.storage            Opening storage 'Flows'
+2017-03-02 14:23:20,837 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Flows.db
+2017-03-02 14:23:20,838 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill
+2017-03-02 14:23:20,838 DEBUG    errbot.core               Adding command : flows_list -> flows_list
+2017-03-02 14:23:20,838 DEBUG    errbot.core               Adding command : flows_show -> flows_show
+2017-03-02 14:23:20,838 DEBUG    errbot.core               Adding command : flows_start -> flows_start
+2017-03-02 14:23:20,838 DEBUG    errbot.core               Adding command : flows_status -> flows_status
+2017-03-02 14:23:20,838 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop
+2017-03-02 14:23:20,838 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2017-03-02 14:23:20,838 INFO     errbot.plugin_manager     Activate plugin: Health
+2017-03-02 14:23:20,839 DEBUG    errbot.plugin_manager     Plugin Health has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:23:20,839 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:23:20,839 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:23:20,839 DEBUG    errbot.botplugin          Init storage for Health
+2017-03-02 14:23:20,839 DEBUG    errbot.storage            Opening storage 'Health'
+2017-03-02 14:23:20,839 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Health.db
+2017-03-02 14:23:20,840 DEBUG    errbot.core               Adding command : restart -> restart
+2017-03-02 14:23:20,840 DEBUG    errbot.core               Adding command : shutdown -> shutdown
+2017-03-02 14:23:20,840 DEBUG    errbot.core               Adding command : status -> status
+2017-03-02 14:23:20,840 DEBUG    errbot.core               Adding command : status_gc -> status_gc
+2017-03-02 14:23:20,840 DEBUG    errbot.core               Adding command : status_load -> status_load
+2017-03-02 14:23:20,840 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins
+2017-03-02 14:23:20,840 DEBUG    errbot.core               Adding command : uptime -> uptime
+2017-03-02 14:23:20,840 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2017-03-02 14:23:20,840 INFO     errbot.plugin_manager     Activate plugin: Help
+2017-03-02 14:23:20,840 DEBUG    errbot.plugin_manager     Plugin Help has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:23:20,840 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:23:20,841 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:23:20,841 DEBUG    errbot.botplugin          Init storage for Help
+2017-03-02 14:23:20,841 DEBUG    errbot.storage            Opening storage 'Help'
+2017-03-02 14:23:20,841 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Help.db
+2017-03-02 14:23:20,842 DEBUG    errbot.core               Adding command : about -> about
+2017-03-02 14:23:20,842 DEBUG    errbot.core               Adding command : apropos -> apropos
+2017-03-02 14:23:20,842 DEBUG    errbot.core               Adding command : help -> help
+2017-03-02 14:23:20,842 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2017-03-02 14:23:20,842 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2017-03-02 14:23:20,842 DEBUG    errbot.plugin_manager     Plugin Plugins has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:23:20,843 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:23:20,843 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:23:20,843 DEBUG    errbot.botplugin          Init storage for Plugins
+2017-03-02 14:23:20,843 DEBUG    errbot.storage            Opening storage 'Plugins'
+2017-03-02 14:23:20,843 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Plugins.db
+2017-03-02 14:23:20,844 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate
+2017-03-02 14:23:20,844 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist
+2017-03-02 14:23:20,844 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config
+2017-03-02 14:23:20,844 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate
+2017-03-02 14:23:20,844 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload
+2017-03-02 14:23:20,844 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist
+2017-03-02 14:23:20,844 DEBUG    errbot.core               Adding command : repos -> repos
+2017-03-02 14:23:20,844 DEBUG    errbot.core               Adding command : repos_install -> repos_install
+2017-03-02 14:23:20,844 DEBUG    errbot.core               Adding command : repos_search -> repos_search
+2017-03-02 14:23:20,844 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall
+2017-03-02 14:23:20,844 DEBUG    errbot.core               Adding command : repos_update -> repos_update
+2017-03-02 14:23:20,844 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2017-03-02 14:23:20,845 INFO     errbot.plugin_manager     Activate plugin: Utils
+2017-03-02 14:23:20,845 DEBUG    errbot.plugin_manager     Plugin Utils has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:23:20,845 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:23:20,845 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:23:20,845 DEBUG    errbot.botplugin          Init storage for Utils
+2017-03-02 14:23:20,845 DEBUG    errbot.storage            Opening storage 'Utils'
+2017-03-02 14:23:20,845 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Utils.db
+2017-03-02 14:23:20,846 DEBUG    errbot.core               Adding command : echo -> echo
+2017-03-02 14:23:20,846 DEBUG    errbot.core               Adding command : history -> history
+2017-03-02 14:23:20,846 DEBUG    errbot.core               Adding command : log_tail -> log_tail
+2017-03-02 14:23:20,846 DEBUG    errbot.core               Adding command : render_test -> render_test
+2017-03-02 14:23:20,846 DEBUG    errbot.core               Adding command : whoami -> whoami
+2017-03-02 14:23:20,846 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2017-03-02 14:23:20,847 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2017-03-02 14:23:20,847 DEBUG    errbot.plugin_manager     Plugin VersionChecker has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:23:20,847 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:23:20,847 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:23:20,847 INFO     errbot.plugins.VersionChecker Skip version checking under text mode
+2017-03-02 14:23:20,847 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2017-03-02 14:23:20,847 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2017-03-02 14:23:20,847 DEBUG    errbot.plugin_manager     Plugin Webserver has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:23:20,848 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:23:20,848 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:23:20,848 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2017-03-02 14:23:20,848 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2017-03-02 14:23:20,848 INFO     errbot.core_plugins.wsview Webhook routing echo
+2017-03-02 14:23:20,848 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2017-03-02 14:23:20,848 INFO     errbot.core               
+2017-03-02 14:23:20,848 INFO     errbot.core               Notifying connection to all the plugins...
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Trigger callback_connect on ACLS
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Trigger callback_connect on Backup
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Trigger callback_connect on ChatRoom
+2017-03-02 14:23:20,849 INFO     errbot.plugins.ChatRoom   Callback_connect
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Trigger callback_connect on Flows
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Trigger callback_connect on Health
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Trigger callback_connect on Help
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Trigger callback_connect on Plugins
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Trigger callback_connect on Utils
+2017-03-02 14:23:20,849 INFO     errbot.core               Plugin activation done.
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Triggering callback_presence on Backup
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Triggering callback_presence on Flows
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Triggering callback_presence on Health
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Triggering callback_presence on Help
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2017-03-02 14:23:20,849 DEBUG    errbot.core               Triggering callback_presence on Utils
+2017-03-02 14:23:56,313 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2017-03-02 14:23:56,313 DEBUG    errbot.core               Triggering callback_presence on Backup
+2017-03-02 14:23:56,313 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2017-03-02 14:23:56,313 DEBUG    errbot.core               Triggering callback_presence on Flows
+2017-03-02 14:23:56,313 DEBUG    errbot.core               Triggering callback_presence on Health
+2017-03-02 14:23:56,313 DEBUG    errbot.core               Triggering callback_presence on Help
+2017-03-02 14:23:56,313 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2017-03-02 14:23:56,313 DEBUG    errbot.core               Triggering callback_presence on Utils
+2017-03-02 14:23:56,313 DEBUG    errbot.backends.text      Trigger disconnect callback
+2017-03-02 14:23:56,313 INFO     errbot.core               Disconnect callback, deactivating all the plugins.
+2017-03-02 14:23:56,314 DEBUG    errbot.storage            Closed storage 'Health'
+2017-03-02 14:23:56,315 DEBUG    errbot.storage            Closed storage 'Flows'
+2017-03-02 14:23:56,315 DEBUG    errbot.storage            Closed storage 'Utils'
+2017-03-02 14:23:56,316 DEBUG    errbot.storage            Closed storage 'ChatRoom'
+2017-03-02 14:23:56,317 DEBUG    errbot.storage            Closed storage 'Backup'
+2017-03-02 14:23:56,317 DEBUG    errbot.storage            Closed storage 'ACLS'
+2017-03-02 14:23:56,317 DEBUG    errbot.core               Removing command filter: acls
+2017-03-02 14:23:56,318 DEBUG    errbot.storage            Closed storage 'Plugins'
+2017-03-02 14:23:56,318 DEBUG    errbot.storage            Closed storage 'Help'
+2017-03-02 14:23:56,319 DEBUG    errbot.backends.text      Trigger shutdown
+2017-03-02 14:23:56,319 DEBUG    errbot.storage            Closed storage 'text_backend'
+2017-03-02 14:23:56,319 INFO     errbot.plugin_manager     Shutdown.
+2017-03-02 14:23:56,319 DEBUG    errbot.storage            Closed storage 'core'
+2017-03-02 14:23:56,319 INFO     errbot.plugin_manager     Bye.
+2017-03-02 14:23:56,319 DEBUG    errbot.storage            Closed storage 'repomgr'
+2017-03-02 14:44:28,176 INFO     errbot.specific_plugin_manager storage search paths {'/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage'}
+2017-03-02 14:44:28,178 INFO     errbot.specific_plugin_manager Found those plugings available:
+2017-03-02 14:44:28,179 INFO     errbot.specific_plugin_manager 	    Memory  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/memory.py)
+2017-03-02 14:44:28,179 INFO     errbot.specific_plugin_manager 	     Shelf  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/shelf.py)
+2017-03-02 14:44:28,179 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2017-03-02 14:44:28,179 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2017-03-02 14:44:28,180 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:44:28,181 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2017-03-02 14:44:28,183 DEBUG    errbot.specific_plugin_manager Class to load ShelfStoragePlugin
+2017-03-02 14:44:28,183 DEBUG    errbot.storage            Opening storage 'repomgr'
+2017-03-02 14:44:28,183 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/repomgr.db
+2017-03-02 14:44:28,187 DEBUG    errbot.storage            Opening storage 'core'
+2017-03-02 14:44:28,187 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/core.db
+2017-03-02 14:44:28,189 INFO     errbot.specific_plugin_manager backends search paths {'/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends'}
+2017-03-02 14:44:28,198 INFO     errbot.specific_plugin_manager Found those plugings available:
+2017-03-02 14:44:28,198 INFO     errbot.specific_plugin_manager 	   Graphic  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/graphic.py)
+2017-03-02 14:44:28,198 INFO     errbot.specific_plugin_manager 	   Hipchat  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/hipchat.py)
+2017-03-02 14:44:28,198 INFO     errbot.specific_plugin_manager 	       IRC  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/irc.py)
+2017-03-02 14:44:28,199 INFO     errbot.specific_plugin_manager 	      Null  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/null.py)
+2017-03-02 14:44:28,199 INFO     errbot.specific_plugin_manager 	     Slack  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py)
+2017-03-02 14:44:28,199 INFO     errbot.specific_plugin_manager 	  Telegram  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/telegram_messenger.py)
+2017-03-02 14:44:28,199 INFO     errbot.specific_plugin_manager 	      Test  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/test.py)
+2017-03-02 14:44:28,200 INFO     errbot.specific_plugin_manager 	      Text  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/text.py)
+2017-03-02 14:44:28,200 INFO     errbot.specific_plugin_manager 	      XMPP  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/xmpp.py)
+2017-03-02 14:44:28,200 INFO     errbot.bootstrap          Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2017-03-02 14:44:28,200 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2017-03-02 14:44:28,201 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:44:28,201 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:44:28,202 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:44:28,203 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:44:28,203 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:44:28,204 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:44:28,205 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:44:28,206 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:44:28,206 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2017-03-02 14:44:28,273 DEBUG    errbot.specific_plugin_manager Class to load TextBackend
+2017-03-02 14:44:28,274 DEBUG    errbot.core               ErrBot init.
+2017-03-02 14:44:28,275 DEBUG    errbot.backends.base      Backend init.
+2017-03-02 14:44:28,277 DEBUG    errbot.core               created a thread pool of size 10.
+2017-03-02 14:44:28,278 DEBUG    errbot.backends.text      Text Backend Init.
+2017-03-02 14:44:28,290 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.smart_strong".
+2017-03-02 14:44:28,291 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
+2017-03-02 14:44:28,291 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.fenced_code".
+2017-03-02 14:44:28,291 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2017-03-02 14:44:28,293 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.footnotes".
+2017-03-02 14:44:28,294 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2017-03-02 14:44:28,300 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.attr_list".
+2017-03-02 14:44:28,300 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2017-03-02 14:44:28,301 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.def_list".
+2017-03-02 14:44:28,302 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2017-03-02 14:44:28,305 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.tables".
+2017-03-02 14:44:28,305 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2017-03-02 14:44:28,307 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.abbr".
+2017-03-02 14:44:28,307 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2017-03-02 14:44:28,308 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2017-03-02 14:44:28,308 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2017-03-02 14:44:28,336 DEBUG    errbot.core               Initializing backend storage
+2017-03-02 14:44:28,337 DEBUG    errbot.storage            Opening storage 'text_backend'
+2017-03-02 14:44:28,337 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/text_backend.db
+2017-03-02 14:44:28,340 DEBUG    errbot.plugin_manager     All plugin roots:
+2017-03-02 14:44:28,340 DEBUG    errbot.plugin_manager     -> /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins
+2017-03-02 14:44:28,341 DEBUG    errbot.plugin_manager     Add /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins to sys.path
+2017-03-02 14:44:28,341 DEBUG    errbot.plugin_manager     /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins has no requirements.txt file
+2017-03-02 14:44:28,591 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2017-03-02 14:44:28,593 DEBUG    errbot.bootstrap          Start serving commands from the text backend
+2017-03-02 14:44:28,593 INFO     errbot.core               Activate internal commands
+2017-03-02 14:44:28,593 INFO     errbot.plugin_manager     Activate bot plugins...
+2017-03-02 14:44:28,593 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2017-03-02 14:44:28,593 DEBUG    errbot.plugin_manager     Plugin ACLs has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:44:28,594 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:44:28,594 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:44:28,594 DEBUG    errbot.botplugin          Init storage for ACLS
+2017-03-02 14:44:28,594 DEBUG    errbot.storage            Opening storage 'ACLS'
+2017-03-02 14:44:28,595 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/ACLS.db
+2017-03-02 14:44:28,595 DEBUG    errbot.core               Adding command filter: acls
+2017-03-02 14:44:28,596 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2017-03-02 14:44:28,596 INFO     errbot.plugin_manager     Activate plugin: Backup
+2017-03-02 14:44:28,596 DEBUG    errbot.plugin_manager     Plugin Backup has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:44:28,596 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:44:28,596 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:44:28,596 DEBUG    errbot.botplugin          Init storage for Backup
+2017-03-02 14:44:28,596 DEBUG    errbot.storage            Opening storage 'Backup'
+2017-03-02 14:44:28,596 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Backup.db
+2017-03-02 14:44:28,597 DEBUG    errbot.core               Adding command : backup -> backup
+2017-03-02 14:44:28,598 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2017-03-02 14:44:28,598 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2017-03-02 14:44:28,598 DEBUG    errbot.plugin_manager     Plugin ChatRoom has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:44:28,598 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:44:28,598 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:44:28,598 DEBUG    errbot.botplugin          Init storage for ChatRoom
+2017-03-02 14:44:28,598 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2017-03-02 14:44:28,599 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/ChatRoom.db
+2017-03-02 14:44:28,599 DEBUG    errbot.core               Adding command : room_create -> room_create
+2017-03-02 14:44:28,599 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy
+2017-03-02 14:44:28,599 DEBUG    errbot.core               Adding command : room_invite -> room_invite
+2017-03-02 14:44:28,599 DEBUG    errbot.core               Adding command : room_join -> room_join
+2017-03-02 14:44:28,599 DEBUG    errbot.core               Adding command : room_leave -> room_leave
+2017-03-02 14:44:28,599 DEBUG    errbot.core               Adding command : room_list -> room_list
+2017-03-02 14:44:28,599 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants
+2017-03-02 14:44:28,599 DEBUG    errbot.core               Adding command : room_topic -> room_topic
+2017-03-02 14:44:28,600 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2017-03-02 14:44:28,600 INFO     errbot.plugin_manager     Activate plugin: Flows
+2017-03-02 14:44:28,600 DEBUG    errbot.plugin_manager     Plugin Flows has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:44:28,600 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:44:28,600 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:44:28,600 DEBUG    errbot.botplugin          Init storage for Flows
+2017-03-02 14:44:28,600 DEBUG    errbot.storage            Opening storage 'Flows'
+2017-03-02 14:44:28,601 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Flows.db
+2017-03-02 14:44:28,601 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill
+2017-03-02 14:44:28,601 DEBUG    errbot.core               Adding command : flows_list -> flows_list
+2017-03-02 14:44:28,601 DEBUG    errbot.core               Adding command : flows_show -> flows_show
+2017-03-02 14:44:28,601 DEBUG    errbot.core               Adding command : flows_start -> flows_start
+2017-03-02 14:44:28,601 DEBUG    errbot.core               Adding command : flows_status -> flows_status
+2017-03-02 14:44:28,601 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop
+2017-03-02 14:44:28,602 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2017-03-02 14:44:28,602 INFO     errbot.plugin_manager     Activate plugin: Health
+2017-03-02 14:44:28,602 DEBUG    errbot.plugin_manager     Plugin Health has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:44:28,602 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:44:28,602 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:44:28,602 DEBUG    errbot.botplugin          Init storage for Health
+2017-03-02 14:44:28,602 DEBUG    errbot.storage            Opening storage 'Health'
+2017-03-02 14:44:28,603 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Health.db
+2017-03-02 14:44:28,603 DEBUG    errbot.core               Adding command : restart -> restart
+2017-03-02 14:44:28,603 DEBUG    errbot.core               Adding command : shutdown -> shutdown
+2017-03-02 14:44:28,603 DEBUG    errbot.core               Adding command : status -> status
+2017-03-02 14:44:28,603 DEBUG    errbot.core               Adding command : status_gc -> status_gc
+2017-03-02 14:44:28,603 DEBUG    errbot.core               Adding command : status_load -> status_load
+2017-03-02 14:44:28,603 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins
+2017-03-02 14:44:28,604 DEBUG    errbot.core               Adding command : uptime -> uptime
+2017-03-02 14:44:28,604 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2017-03-02 14:44:28,604 INFO     errbot.plugin_manager     Activate plugin: Help
+2017-03-02 14:44:28,604 DEBUG    errbot.plugin_manager     Plugin Help has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:44:28,604 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:44:28,605 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:44:28,605 DEBUG    errbot.botplugin          Init storage for Help
+2017-03-02 14:44:28,605 DEBUG    errbot.storage            Opening storage 'Help'
+2017-03-02 14:44:28,605 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Help.db
+2017-03-02 14:44:28,606 DEBUG    errbot.core               Adding command : about -> about
+2017-03-02 14:44:28,606 DEBUG    errbot.core               Adding command : apropos -> apropos
+2017-03-02 14:44:28,606 DEBUG    errbot.core               Adding command : help -> help
+2017-03-02 14:44:28,606 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2017-03-02 14:44:28,607 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2017-03-02 14:44:28,607 DEBUG    errbot.plugin_manager     Plugin Plugins has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:44:28,607 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:44:28,607 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:44:28,607 DEBUG    errbot.botplugin          Init storage for Plugins
+2017-03-02 14:44:28,607 DEBUG    errbot.storage            Opening storage 'Plugins'
+2017-03-02 14:44:28,607 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Plugins.db
+2017-03-02 14:44:28,608 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate
+2017-03-02 14:44:28,608 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist
+2017-03-02 14:44:28,608 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config
+2017-03-02 14:44:28,608 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate
+2017-03-02 14:44:28,608 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload
+2017-03-02 14:44:28,608 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist
+2017-03-02 14:44:28,608 DEBUG    errbot.core               Adding command : repos -> repos
+2017-03-02 14:44:28,608 DEBUG    errbot.core               Adding command : repos_install -> repos_install
+2017-03-02 14:44:28,608 DEBUG    errbot.core               Adding command : repos_search -> repos_search
+2017-03-02 14:44:28,608 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall
+2017-03-02 14:44:28,608 DEBUG    errbot.core               Adding command : repos_update -> repos_update
+2017-03-02 14:44:28,609 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2017-03-02 14:44:28,610 INFO     errbot.plugin_manager     Activate plugin: Utils
+2017-03-02 14:44:28,611 DEBUG    errbot.plugin_manager     Plugin Utils has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:44:28,611 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:44:28,611 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:44:28,611 DEBUG    errbot.botplugin          Init storage for Utils
+2017-03-02 14:44:28,611 DEBUG    errbot.storage            Opening storage 'Utils'
+2017-03-02 14:44:28,611 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Utils.db
+2017-03-02 14:44:28,613 DEBUG    errbot.core               Adding command : echo -> echo
+2017-03-02 14:44:28,614 DEBUG    errbot.core               Adding command : history -> history
+2017-03-02 14:44:28,614 DEBUG    errbot.core               Adding command : log_tail -> log_tail
+2017-03-02 14:44:28,614 DEBUG    errbot.core               Adding command : render_test -> render_test
+2017-03-02 14:44:28,614 DEBUG    errbot.core               Adding command : whoami -> whoami
+2017-03-02 14:44:28,614 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2017-03-02 14:44:28,614 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2017-03-02 14:44:28,615 DEBUG    errbot.plugin_manager     Plugin VersionChecker has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:44:28,615 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:44:28,615 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:44:28,615 INFO     errbot.plugins.VersionChecker Skip version checking under text mode
+2017-03-02 14:44:28,615 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2017-03-02 14:44:28,616 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2017-03-02 14:44:28,617 DEBUG    errbot.plugin_manager     Plugin Webserver has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:44:28,617 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:44:28,617 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:44:28,618 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2017-03-02 14:44:28,618 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2017-03-02 14:44:28,618 INFO     errbot.core_plugins.wsview Webhook routing echo
+2017-03-02 14:44:28,618 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2017-03-02 14:44:28,619 INFO     errbot.core               
+2017-03-02 14:44:28,619 INFO     errbot.core               Notifying connection to all the plugins...
+2017-03-02 14:44:28,619 DEBUG    errbot.core               Trigger callback_connect on ACLS
+2017-03-02 14:44:28,619 DEBUG    errbot.core               Trigger callback_connect on Backup
+2017-03-02 14:44:28,619 DEBUG    errbot.core               Trigger callback_connect on ChatRoom
+2017-03-02 14:44:28,619 INFO     errbot.plugins.ChatRoom   Callback_connect
+2017-03-02 14:44:28,619 DEBUG    errbot.core               Trigger callback_connect on Flows
+2017-03-02 14:44:28,620 DEBUG    errbot.core               Trigger callback_connect on Health
+2017-03-02 14:44:28,620 DEBUG    errbot.core               Trigger callback_connect on Help
+2017-03-02 14:44:28,620 DEBUG    errbot.core               Trigger callback_connect on Plugins
+2017-03-02 14:44:28,620 DEBUG    errbot.core               Trigger callback_connect on Utils
+2017-03-02 14:44:28,620 INFO     errbot.core               Plugin activation done.
+2017-03-02 14:44:28,620 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2017-03-02 14:44:28,620 DEBUG    errbot.core               Triggering callback_presence on Backup
+2017-03-02 14:44:28,620 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2017-03-02 14:44:28,621 DEBUG    errbot.core               Triggering callback_presence on Flows
+2017-03-02 14:44:28,621 DEBUG    errbot.core               Triggering callback_presence on Health
+2017-03-02 14:44:28,621 DEBUG    errbot.core               Triggering callback_presence on Help
+2017-03-02 14:44:28,621 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2017-03-02 14:44:28,621 DEBUG    errbot.core               Triggering callback_presence on Utils
+2017-03-02 14:44:30,509 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-03-02 14:44:30,510 DEBUG    errbot.core               *** username = CHANGE ME
+2017-03-02 14:44:30,510 DEBUG    errbot.core               *** text = !help
+2017-03-02 14:44:30,510 DEBUG    errbot.plugins.ACLS       Check help for ACLs.
+2017-03-02 14:44:30,510 INFO     errbot.plugins.ACLS       Matching ACL {} against username CHANGE ME for command Help:help
+2017-03-02 14:44:30,510 INFO     errbot.plugins.ACLS       Check if help is admin only command.
+2017-03-02 14:44:30,510 INFO     errbot.core               Processing command 'help' with parameters '' from CHANGE ME
+2017-03-02 14:44:30,511 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-03-02 14:44:30,511 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-03-02 14:44:30,511 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-03-02 14:44:30,511 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-03-02 14:44:30,511 DEBUG    errbot.core               Triggering callback_message on Health
+2017-03-02 14:44:30,511 DEBUG    errbot.core               Triggering callback_message on Help
+2017-03-02 14:44:30,511 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-03-02 14:44:30,511 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-03-02 14:44:30,511 DEBUG    errbot.flow               Test if the command help is a trigger for an inflight flow ...
+2017-03-02 14:44:30,512 DEBUG    errbot.flow               None matched.
+2017-03-02 14:44:30,522 DEBUG    errbot.flow               Test if the command help is a trigger for an inflight flow ...
+2017-03-02 14:44:30,522 DEBUG    errbot.flow               None matched.
+2017-03-02 14:44:30,522 DEBUG    errbot.flow               Test if the command help is an auto-trigger for any flow ...
+2017-03-02 14:44:45,159 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-03-02 14:44:45,160 DEBUG    errbot.core               *** username = CHANGE ME
+2017-03-02 14:44:45,160 DEBUG    errbot.core               *** text = !plugin activate 
+2017-03-02 14:44:45,160 DEBUG    errbot.plugins.ACLS       Check plugin_activate for ACLs.
+2017-03-02 14:44:45,160 INFO     errbot.plugins.ACLS       Matching ACL {} against username CHANGE ME for command Plugins:plugin_activate
+2017-03-02 14:44:45,160 INFO     errbot.plugins.ACLS       Check if plugin_activate is admin only command.
+2017-03-02 14:44:45,161 INFO     errbot.core               Processing command 'plugin_activate' with parameters '' from CHANGE ME
+2017-03-02 14:44:45,161 DEBUG    errbot.flow               Test if the command plugin_activate is a trigger for an inflight flow ...
+2017-03-02 14:44:45,161 DEBUG    errbot.flow               None matched.
+2017-03-02 14:44:45,162 DEBUG    errbot.flow               Test if the command plugin_activate is a trigger for an inflight flow ...
+2017-03-02 14:44:45,162 DEBUG    errbot.flow               None matched.
+2017-03-02 14:44:45,162 DEBUG    errbot.flow               Test if the command plugin_activate is an auto-trigger for any flow ...
+2017-03-02 14:44:45,162 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-03-02 14:44:45,162 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-03-02 14:44:45,162 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-03-02 14:44:45,162 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-03-02 14:44:45,162 DEBUG    errbot.core               Triggering callback_message on Health
+2017-03-02 14:44:45,162 DEBUG    errbot.core               Triggering callback_message on Help
+2017-03-02 14:44:45,162 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-03-02 14:44:45,162 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-03-02 14:45:51,773 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-03-02 14:45:51,774 DEBUG    errbot.core               *** username = CHANGE ME
+2017-03-02 14:45:51,774 DEBUG    errbot.core               *** text = !repos update
+2017-03-02 14:45:51,775 DEBUG    errbot.plugins.ACLS       Check repos_update for ACLs.
+2017-03-02 14:45:51,775 INFO     errbot.plugins.ACLS       Matching ACL {} against username CHANGE ME for command Plugins:repos_update
+2017-03-02 14:45:51,775 INFO     errbot.plugins.ACLS       Check if repos_update is admin only command.
+2017-03-02 14:45:51,775 INFO     errbot.core               Processing command 'repos_update' with parameters '' from CHANGE ME
+2017-03-02 14:45:51,775 DEBUG    errbot.flow               Test if the command repos_update is a trigger for an inflight flow ...
+2017-03-02 14:45:51,776 DEBUG    errbot.flow               None matched.
+2017-03-02 14:45:51,777 DEBUG    errbot.flow               Test if the command repos_update is a trigger for an inflight flow ...
+2017-03-02 14:45:51,777 DEBUG    errbot.flow               None matched.
+2017-03-02 14:45:51,777 DEBUG    errbot.flow               Test if the command repos_update is an auto-trigger for any flow ...
+2017-03-02 14:45:51,777 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-03-02 14:45:51,778 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-03-02 14:45:51,778 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-03-02 14:45:51,778 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-03-02 14:45:51,778 DEBUG    errbot.core               Triggering callback_message on Health
+2017-03-02 14:45:51,778 DEBUG    errbot.core               Triggering callback_message on Help
+2017-03-02 14:45:51,778 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-03-02 14:45:51,778 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-03-02 14:47:33,731 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-03-02 14:47:33,731 DEBUG    errbot.core               *** username = CHANGE ME
+2017-03-02 14:47:33,731 DEBUG    errbot.core               *** text = !plugin load jenkins
+2017-03-02 14:47:33,731 DEBUG    errbot.core               Command not found
+2017-03-02 14:47:33,733 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-03-02 14:47:33,733 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-03-02 14:47:33,733 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-03-02 14:47:33,734 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-03-02 14:47:33,734 DEBUG    errbot.core               Triggering callback_message on Health
+2017-03-02 14:47:33,734 DEBUG    errbot.core               Triggering callback_message on Help
+2017-03-02 14:47:33,734 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-03-02 14:47:33,734 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-03-02 14:47:36,501 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2017-03-02 14:47:36,501 DEBUG    errbot.core               Triggering callback_presence on Backup
+2017-03-02 14:47:36,501 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2017-03-02 14:47:36,501 DEBUG    errbot.core               Triggering callback_presence on Flows
+2017-03-02 14:47:36,502 DEBUG    errbot.core               Triggering callback_presence on Health
+2017-03-02 14:47:36,502 DEBUG    errbot.core               Triggering callback_presence on Help
+2017-03-02 14:47:36,502 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2017-03-02 14:47:36,502 DEBUG    errbot.core               Triggering callback_presence on Utils
+2017-03-02 14:47:36,502 DEBUG    errbot.backends.text      Trigger disconnect callback
+2017-03-02 14:47:36,502 INFO     errbot.core               Disconnect callback, deactivating all the plugins.
+2017-03-02 14:47:36,502 DEBUG    errbot.storage            Closed storage 'Health'
+2017-03-02 14:47:36,504 DEBUG    errbot.storage            Closed storage 'Plugins'
+2017-03-02 14:47:36,504 DEBUG    errbot.storage            Closed storage 'Utils'
+2017-03-02 14:47:36,505 DEBUG    errbot.storage            Closed storage 'Flows'
+2017-03-02 14:47:36,506 DEBUG    errbot.storage            Closed storage 'ChatRoom'
+2017-03-02 14:47:36,506 DEBUG    errbot.storage            Closed storage 'ACLS'
+2017-03-02 14:47:36,507 DEBUG    errbot.core               Removing command filter: acls
+2017-03-02 14:47:36,507 DEBUG    errbot.storage            Closed storage 'Backup'
+2017-03-02 14:47:36,508 DEBUG    errbot.storage            Closed storage 'Help'
+2017-03-02 14:47:36,509 DEBUG    errbot.backends.text      Trigger shutdown
+2017-03-02 14:47:36,509 DEBUG    errbot.storage            Closed storage 'text_backend'
+2017-03-02 14:47:36,509 INFO     errbot.plugin_manager     Shutdown.
+2017-03-02 14:47:36,510 DEBUG    errbot.storage            Closed storage 'core'
+2017-03-02 14:47:36,510 INFO     errbot.plugin_manager     Bye.
+2017-03-02 14:47:36,510 DEBUG    errbot.storage            Closed storage 'repomgr'
+2017-03-02 14:47:36,510 INFO     errbot.cli                Process exiting
+2017-03-02 14:48:52,102 INFO     errbot.specific_plugin_manager storage search paths {'/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage'}
+2017-03-02 14:48:52,103 INFO     errbot.specific_plugin_manager Found those plugings available:
+2017-03-02 14:48:52,104 INFO     errbot.specific_plugin_manager 	    Memory  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/memory.py)
+2017-03-02 14:48:52,104 INFO     errbot.specific_plugin_manager 	     Shelf  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/shelf.py)
+2017-03-02 14:48:52,104 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2017-03-02 14:48:52,104 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2017-03-02 14:48:52,105 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:48:52,106 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2017-03-02 14:48:52,109 DEBUG    errbot.specific_plugin_manager Class to load ShelfStoragePlugin
+2017-03-02 14:48:52,110 DEBUG    errbot.storage            Opening storage 'repomgr'
+2017-03-02 14:48:52,110 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/repomgr.db
+2017-03-02 14:48:52,114 DEBUG    errbot.storage            Opening storage 'core'
+2017-03-02 14:48:52,115 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/core.db
+2017-03-02 14:48:52,116 INFO     errbot.specific_plugin_manager backends search paths {'/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends'}
+2017-03-02 14:48:52,127 INFO     errbot.specific_plugin_manager Found those plugings available:
+2017-03-02 14:48:52,128 INFO     errbot.specific_plugin_manager 	   Graphic  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/graphic.py)
+2017-03-02 14:48:52,129 INFO     errbot.specific_plugin_manager 	   Hipchat  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/hipchat.py)
+2017-03-02 14:48:52,130 INFO     errbot.specific_plugin_manager 	       IRC  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/irc.py)
+2017-03-02 14:48:52,131 INFO     errbot.specific_plugin_manager 	      Null  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/null.py)
+2017-03-02 14:48:52,131 INFO     errbot.specific_plugin_manager 	     Slack  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py)
+2017-03-02 14:48:52,131 INFO     errbot.specific_plugin_manager 	  Telegram  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/telegram_messenger.py)
+2017-03-02 14:48:52,131 INFO     errbot.specific_plugin_manager 	      Test  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/test.py)
+2017-03-02 14:48:52,132 INFO     errbot.specific_plugin_manager 	      Text  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/text.py)
+2017-03-02 14:48:52,132 INFO     errbot.specific_plugin_manager 	      XMPP  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/xmpp.py)
+2017-03-02 14:48:52,132 INFO     errbot.bootstrap          Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2017-03-02 14:48:52,132 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2017-03-02 14:48:52,133 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:48:52,133 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:48:52,134 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:48:52,135 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:48:52,135 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:48:52,136 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:48:52,136 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:48:52,137 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:48:52,137 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2017-03-02 14:48:52,200 DEBUG    errbot.specific_plugin_manager Class to load TextBackend
+2017-03-02 14:48:52,200 DEBUG    errbot.core               ErrBot init.
+2017-03-02 14:48:52,201 DEBUG    errbot.backends.base      Backend init.
+2017-03-02 14:48:52,202 DEBUG    errbot.core               created a thread pool of size 10.
+2017-03-02 14:48:52,204 DEBUG    errbot.backends.text      Text Backend Init.
+2017-03-02 14:48:52,218 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.smart_strong".
+2017-03-02 14:48:52,219 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
+2017-03-02 14:48:52,219 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.fenced_code".
+2017-03-02 14:48:52,219 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2017-03-02 14:48:52,221 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.footnotes".
+2017-03-02 14:48:52,222 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2017-03-02 14:48:52,231 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.attr_list".
+2017-03-02 14:48:52,231 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2017-03-02 14:48:52,233 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.def_list".
+2017-03-02 14:48:52,233 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2017-03-02 14:48:52,234 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.tables".
+2017-03-02 14:48:52,234 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2017-03-02 14:48:52,235 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.abbr".
+2017-03-02 14:48:52,235 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2017-03-02 14:48:52,236 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2017-03-02 14:48:52,236 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2017-03-02 14:48:52,258 DEBUG    errbot.core               Initializing backend storage
+2017-03-02 14:48:52,258 DEBUG    errbot.storage            Opening storage 'text_backend'
+2017-03-02 14:48:52,259 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/text_backend.db
+2017-03-02 14:48:52,261 DEBUG    errbot.plugin_manager     All plugin roots:
+2017-03-02 14:48:52,261 DEBUG    errbot.plugin_manager     -> /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins
+2017-03-02 14:48:52,262 DEBUG    errbot.plugin_manager     Add /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins to sys.path
+2017-03-02 14:48:52,262 DEBUG    errbot.plugin_manager     /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins has no requirements.txt file
+2017-03-02 14:48:52,516 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2017-03-02 14:48:52,517 DEBUG    errbot.bootstrap          Start serving commands from the text backend
+2017-03-02 14:48:52,518 INFO     errbot.core               Activate internal commands
+2017-03-02 14:48:52,518 INFO     errbot.plugin_manager     Activate bot plugins...
+2017-03-02 14:48:52,518 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2017-03-02 14:48:52,518 DEBUG    errbot.plugin_manager     Plugin ACLs has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:48:52,519 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:48:52,519 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:48:52,519 DEBUG    errbot.botplugin          Init storage for ACLS
+2017-03-02 14:48:52,519 DEBUG    errbot.storage            Opening storage 'ACLS'
+2017-03-02 14:48:52,519 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/ACLS.db
+2017-03-02 14:48:52,520 DEBUG    errbot.core               Adding command filter: acls
+2017-03-02 14:48:52,520 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2017-03-02 14:48:52,520 INFO     errbot.plugin_manager     Activate plugin: Backup
+2017-03-02 14:48:52,520 DEBUG    errbot.plugin_manager     Plugin Backup has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:48:52,520 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:48:52,520 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:48:52,521 DEBUG    errbot.botplugin          Init storage for Backup
+2017-03-02 14:48:52,521 DEBUG    errbot.storage            Opening storage 'Backup'
+2017-03-02 14:48:52,521 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Backup.db
+2017-03-02 14:48:52,521 DEBUG    errbot.core               Adding command : backup -> backup
+2017-03-02 14:48:52,521 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2017-03-02 14:48:52,522 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2017-03-02 14:48:52,522 DEBUG    errbot.plugin_manager     Plugin ChatRoom has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:48:52,522 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:48:52,522 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:48:52,522 DEBUG    errbot.botplugin          Init storage for ChatRoom
+2017-03-02 14:48:52,522 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2017-03-02 14:48:52,522 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/ChatRoom.db
+2017-03-02 14:48:52,522 DEBUG    errbot.core               Adding command : room_create -> room_create
+2017-03-02 14:48:52,522 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy
+2017-03-02 14:48:52,522 DEBUG    errbot.core               Adding command : room_invite -> room_invite
+2017-03-02 14:48:52,523 DEBUG    errbot.core               Adding command : room_join -> room_join
+2017-03-02 14:48:52,523 DEBUG    errbot.core               Adding command : room_leave -> room_leave
+2017-03-02 14:48:52,523 DEBUG    errbot.core               Adding command : room_list -> room_list
+2017-03-02 14:48:52,523 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants
+2017-03-02 14:48:52,523 DEBUG    errbot.core               Adding command : room_topic -> room_topic
+2017-03-02 14:48:52,523 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2017-03-02 14:48:52,523 INFO     errbot.plugin_manager     Activate plugin: Flows
+2017-03-02 14:48:52,523 DEBUG    errbot.plugin_manager     Plugin Flows has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:48:52,523 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:48:52,524 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:48:52,524 DEBUG    errbot.botplugin          Init storage for Flows
+2017-03-02 14:48:52,524 DEBUG    errbot.storage            Opening storage 'Flows'
+2017-03-02 14:48:52,524 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Flows.db
+2017-03-02 14:48:52,524 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill
+2017-03-02 14:48:52,524 DEBUG    errbot.core               Adding command : flows_list -> flows_list
+2017-03-02 14:48:52,524 DEBUG    errbot.core               Adding command : flows_show -> flows_show
+2017-03-02 14:48:52,524 DEBUG    errbot.core               Adding command : flows_start -> flows_start
+2017-03-02 14:48:52,524 DEBUG    errbot.core               Adding command : flows_status -> flows_status
+2017-03-02 14:48:52,524 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop
+2017-03-02 14:48:52,525 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2017-03-02 14:48:52,525 INFO     errbot.plugin_manager     Activate plugin: Health
+2017-03-02 14:48:52,525 DEBUG    errbot.plugin_manager     Plugin Health has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:48:52,525 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:48:52,525 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:48:52,526 DEBUG    errbot.botplugin          Init storage for Health
+2017-03-02 14:48:52,526 DEBUG    errbot.storage            Opening storage 'Health'
+2017-03-02 14:48:52,526 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Health.db
+2017-03-02 14:48:52,526 DEBUG    errbot.core               Adding command : restart -> restart
+2017-03-02 14:48:52,527 DEBUG    errbot.core               Adding command : shutdown -> shutdown
+2017-03-02 14:48:52,527 DEBUG    errbot.core               Adding command : status -> status
+2017-03-02 14:48:52,527 DEBUG    errbot.core               Adding command : status_gc -> status_gc
+2017-03-02 14:48:52,527 DEBUG    errbot.core               Adding command : status_load -> status_load
+2017-03-02 14:48:52,527 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins
+2017-03-02 14:48:52,527 DEBUG    errbot.core               Adding command : uptime -> uptime
+2017-03-02 14:48:52,527 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2017-03-02 14:48:52,527 INFO     errbot.plugin_manager     Activate plugin: Help
+2017-03-02 14:48:52,527 DEBUG    errbot.plugin_manager     Plugin Help has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:48:52,528 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:48:52,528 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:48:52,528 DEBUG    errbot.botplugin          Init storage for Help
+2017-03-02 14:48:52,528 DEBUG    errbot.storage            Opening storage 'Help'
+2017-03-02 14:48:52,528 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Help.db
+2017-03-02 14:48:52,528 DEBUG    errbot.core               Adding command : about -> about
+2017-03-02 14:48:52,528 DEBUG    errbot.core               Adding command : apropos -> apropos
+2017-03-02 14:48:52,528 DEBUG    errbot.core               Adding command : help -> help
+2017-03-02 14:48:52,529 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2017-03-02 14:48:52,529 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2017-03-02 14:48:52,529 DEBUG    errbot.plugin_manager     Plugin Plugins has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:48:52,529 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:48:52,529 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:48:52,529 DEBUG    errbot.botplugin          Init storage for Plugins
+2017-03-02 14:48:52,529 DEBUG    errbot.storage            Opening storage 'Plugins'
+2017-03-02 14:48:52,529 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Plugins.db
+2017-03-02 14:48:52,530 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate
+2017-03-02 14:48:52,530 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist
+2017-03-02 14:48:52,530 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config
+2017-03-02 14:48:52,530 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate
+2017-03-02 14:48:52,530 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload
+2017-03-02 14:48:52,530 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist
+2017-03-02 14:48:52,530 DEBUG    errbot.core               Adding command : repos -> repos
+2017-03-02 14:48:52,530 DEBUG    errbot.core               Adding command : repos_install -> repos_install
+2017-03-02 14:48:52,530 DEBUG    errbot.core               Adding command : repos_search -> repos_search
+2017-03-02 14:48:52,530 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall
+2017-03-02 14:48:52,530 DEBUG    errbot.core               Adding command : repos_update -> repos_update
+2017-03-02 14:48:52,530 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2017-03-02 14:48:52,532 INFO     errbot.plugin_manager     Activate plugin: Utils
+2017-03-02 14:48:52,532 DEBUG    errbot.plugin_manager     Plugin Utils has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:48:52,532 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:48:52,532 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:48:52,532 DEBUG    errbot.botplugin          Init storage for Utils
+2017-03-02 14:48:52,532 DEBUG    errbot.storage            Opening storage 'Utils'
+2017-03-02 14:48:52,532 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Utils.db
+2017-03-02 14:48:52,533 DEBUG    errbot.core               Adding command : echo -> echo
+2017-03-02 14:48:52,533 DEBUG    errbot.core               Adding command : history -> history
+2017-03-02 14:48:52,533 DEBUG    errbot.core               Adding command : log_tail -> log_tail
+2017-03-02 14:48:52,533 DEBUG    errbot.core               Adding command : render_test -> render_test
+2017-03-02 14:48:52,533 DEBUG    errbot.core               Adding command : whoami -> whoami
+2017-03-02 14:48:52,533 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2017-03-02 14:48:52,533 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2017-03-02 14:48:52,533 DEBUG    errbot.plugin_manager     Plugin VersionChecker has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:48:52,533 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:48:52,534 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:48:52,534 INFO     errbot.plugins.VersionChecker Skip version checking under text mode
+2017-03-02 14:48:52,534 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2017-03-02 14:48:52,534 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2017-03-02 14:48:52,534 DEBUG    errbot.plugin_manager     Plugin Webserver has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:48:52,534 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:48:52,534 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:48:52,534 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2017-03-02 14:48:52,534 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2017-03-02 14:48:52,535 INFO     errbot.core_plugins.wsview Webhook routing echo
+2017-03-02 14:48:52,535 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2017-03-02 14:48:52,535 INFO     errbot.core               
+2017-03-02 14:48:52,535 INFO     errbot.core               Notifying connection to all the plugins...
+2017-03-02 14:48:52,535 DEBUG    errbot.core               Trigger callback_connect on ACLS
+2017-03-02 14:48:52,535 DEBUG    errbot.core               Trigger callback_connect on Backup
+2017-03-02 14:48:52,535 DEBUG    errbot.core               Trigger callback_connect on ChatRoom
+2017-03-02 14:48:52,535 INFO     errbot.plugins.ChatRoom   Callback_connect
+2017-03-02 14:48:52,535 DEBUG    errbot.core               Trigger callback_connect on Flows
+2017-03-02 14:48:52,535 DEBUG    errbot.core               Trigger callback_connect on Health
+2017-03-02 14:48:52,535 DEBUG    errbot.core               Trigger callback_connect on Help
+2017-03-02 14:48:52,535 DEBUG    errbot.core               Trigger callback_connect on Plugins
+2017-03-02 14:48:52,535 DEBUG    errbot.core               Trigger callback_connect on Utils
+2017-03-02 14:48:52,535 INFO     errbot.core               Plugin activation done.
+2017-03-02 14:48:52,536 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2017-03-02 14:48:52,536 DEBUG    errbot.core               Triggering callback_presence on Backup
+2017-03-02 14:48:52,536 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2017-03-02 14:48:52,536 DEBUG    errbot.core               Triggering callback_presence on Flows
+2017-03-02 14:48:52,536 DEBUG    errbot.core               Triggering callback_presence on Health
+2017-03-02 14:48:52,536 DEBUG    errbot.core               Triggering callback_presence on Help
+2017-03-02 14:48:52,536 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2017-03-02 14:48:52,536 DEBUG    errbot.core               Triggering callback_presence on Utils
+2017-03-02 14:49:15,712 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-03-02 14:49:15,712 DEBUG    errbot.core               *** username = CHANGE ME
+2017-03-02 14:49:15,712 DEBUG    errbot.core               *** text = !statys
+2017-03-02 14:49:15,712 DEBUG    errbot.core               Command not found
+2017-03-02 14:49:15,714 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-03-02 14:49:15,714 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-03-02 14:49:15,714 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-03-02 14:49:15,714 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-03-02 14:49:15,714 DEBUG    errbot.core               Triggering callback_message on Health
+2017-03-02 14:49:15,714 DEBUG    errbot.core               Triggering callback_message on Help
+2017-03-02 14:49:15,714 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-03-02 14:49:15,714 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-03-02 14:49:21,998 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-03-02 14:49:21,998 DEBUG    errbot.core               *** username = CHANGE ME
+2017-03-02 14:49:21,998 DEBUG    errbot.core               *** text = !status
+2017-03-02 14:49:21,999 DEBUG    errbot.plugins.ACLS       Check status for ACLs.
+2017-03-02 14:49:21,999 INFO     errbot.plugins.ACLS       Matching ACL {} against username CHANGE ME for command Health:status
+2017-03-02 14:49:21,999 INFO     errbot.plugins.ACLS       Check if status is admin only command.
+2017-03-02 14:49:21,999 INFO     errbot.core               Processing command 'status' with parameters '' from CHANGE ME
+2017-03-02 14:49:21,999 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-03-02 14:49:21,999 DEBUG    errbot.flow               Test if the command status is a trigger for an inflight flow ...
+2017-03-02 14:49:21,999 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-03-02 14:49:21,999 DEBUG    errbot.flow               None matched.
+2017-03-02 14:49:21,999 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-03-02 14:49:22,000 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-03-02 14:49:22,000 DEBUG    errbot.core               Triggering callback_message on Health
+2017-03-02 14:49:22,000 DEBUG    errbot.core               Triggering callback_message on Help
+2017-03-02 14:49:22,000 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-03-02 14:49:22,000 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-03-02 14:49:22,030 DEBUG    errbot.flow               Test if the command status is a trigger for an inflight flow ...
+2017-03-02 14:49:22,030 DEBUG    errbot.flow               None matched.
+2017-03-02 14:49:22,030 DEBUG    errbot.flow               Test if the command status is an auto-trigger for any flow ...
+2017-03-02 14:50:23,377 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-03-02 14:50:23,377 DEBUG    errbot.core               *** username = CHANGE ME
+2017-03-02 14:50:23,377 DEBUG    errbot.core               *** text = !repos install /https://github.com/benvd/err-jenkins
+2017-03-02 14:50:23,377 DEBUG    errbot.plugins.ACLS       Check repos_install for ACLs.
+2017-03-02 14:50:23,378 INFO     errbot.plugins.ACLS       Matching ACL {} against username CHANGE ME for command Plugins:repos_install
+2017-03-02 14:50:23,378 INFO     errbot.plugins.ACLS       Check if repos_install is admin only command.
+2017-03-02 14:50:23,378 INFO     errbot.core               Processing command 'repos_install' with parameters '/https://github.com/benvd/err-jenkins' from CHANGE ME
+2017-03-02 14:50:23,378 DEBUG    errbot.flow               Test if the command repos_install is a trigger for an inflight flow ...
+2017-03-02 14:50:23,378 DEBUG    errbot.flow               None matched.
+2017-03-02 14:50:23,379 INFO     errbot.repo_manager       No repo index, creating it.
+2017-03-02 14:50:23,379 INFO     errbot.repo_manager       Index is too old, update it.
+2017-03-02 14:50:23,879 ERROR    errbot.repo_manager       Could not update from source https://repos.errbot.io/repos.json, keep the index as it is.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1400, in connect
+    server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 401, in wrap_socket
+    _context=self, _session=session)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 808, in __init__
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 1061, in do_handshake
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 683, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:749)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/repo_manager.py", line 98, in index_update
+    with urlopen(url=source, timeout=10) as request:  # nosec
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 526, in open
+    response = self._open(req, data)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 544, in _open
+    '_open', req)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:749)>
+2017-03-02 14:50:23,904 DEBUG    errbot.flow               Test if the command repos_install is a trigger for an inflight flow ...
+2017-03-02 14:50:23,904 DEBUG    errbot.flow               None matched.
+2017-03-02 14:50:23,904 DEBUG    errbot.flow               Test if the command repos_install is an auto-trigger for any flow ...
+2017-03-02 14:50:23,905 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-03-02 14:50:23,905 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-03-02 14:50:23,905 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-03-02 14:50:23,905 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-03-02 14:50:23,905 DEBUG    errbot.core               Triggering callback_message on Health
+2017-03-02 14:50:23,905 DEBUG    errbot.core               Triggering callback_message on Help
+2017-03-02 14:50:23,905 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-03-02 14:50:23,905 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-03-02 14:50:42,369 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-03-02 14:50:42,369 DEBUG    errbot.core               *** username = CHANGE ME
+2017-03-02 14:50:42,369 DEBUG    errbot.core               *** text = !install https://github.com/benvd/err-jenkins
+2017-03-02 14:50:42,369 DEBUG    errbot.core               Command not found
+2017-03-02 14:50:42,371 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-03-02 14:50:42,371 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-03-02 14:50:42,371 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-03-02 14:50:42,371 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-03-02 14:50:42,371 DEBUG    errbot.core               Triggering callback_message on Health
+2017-03-02 14:50:42,371 DEBUG    errbot.core               Triggering callback_message on Help
+2017-03-02 14:50:42,371 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-03-02 14:50:42,371 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-03-02 14:51:06,731 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-03-02 14:51:06,731 DEBUG    errbot.core               *** username = CHANGE ME
+2017-03-02 14:51:06,731 DEBUG    errbot.core               *** text = !help
+2017-03-02 14:51:06,732 DEBUG    errbot.plugins.ACLS       Check help for ACLs.
+2017-03-02 14:51:06,732 INFO     errbot.plugins.ACLS       Matching ACL {} against username CHANGE ME for command Help:help
+2017-03-02 14:51:06,732 INFO     errbot.plugins.ACLS       Check if help is admin only command.
+2017-03-02 14:51:06,732 INFO     errbot.core               Processing command 'help' with parameters '' from CHANGE ME
+2017-03-02 14:51:06,732 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-03-02 14:51:06,732 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-03-02 14:51:06,733 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-03-02 14:51:06,733 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-03-02 14:51:06,733 DEBUG    errbot.core               Triggering callback_message on Health
+2017-03-02 14:51:06,733 DEBUG    errbot.core               Triggering callback_message on Help
+2017-03-02 14:51:06,733 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-03-02 14:51:06,733 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-03-02 14:51:06,733 DEBUG    errbot.flow               Test if the command help is a trigger for an inflight flow ...
+2017-03-02 14:51:06,733 DEBUG    errbot.flow               None matched.
+2017-03-02 14:51:06,744 DEBUG    errbot.flow               Test if the command help is a trigger for an inflight flow ...
+2017-03-02 14:51:06,744 DEBUG    errbot.flow               None matched.
+2017-03-02 14:51:06,744 DEBUG    errbot.flow               Test if the command help is an auto-trigger for any flow ...
+2017-03-02 14:53:38,076 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2017-03-02 14:53:38,076 DEBUG    errbot.core               Triggering callback_presence on Backup
+2017-03-02 14:53:38,076 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2017-03-02 14:53:38,076 DEBUG    errbot.core               Triggering callback_presence on Flows
+2017-03-02 14:53:38,076 DEBUG    errbot.core               Triggering callback_presence on Health
+2017-03-02 14:53:38,076 DEBUG    errbot.core               Triggering callback_presence on Help
+2017-03-02 14:53:38,076 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2017-03-02 14:53:38,077 DEBUG    errbot.core               Triggering callback_presence on Utils
+2017-03-02 14:53:38,077 DEBUG    errbot.backends.text      Trigger disconnect callback
+2017-03-02 14:53:38,077 INFO     errbot.core               Disconnect callback, deactivating all the plugins.
+2017-03-02 14:53:38,077 DEBUG    errbot.storage            Closed storage 'Help'
+2017-03-02 14:53:38,078 DEBUG    errbot.storage            Closed storage 'Health'
+2017-03-02 14:53:38,079 DEBUG    errbot.storage            Closed storage 'Utils'
+2017-03-02 14:53:38,080 DEBUG    errbot.storage            Closed storage 'ChatRoom'
+2017-03-02 14:53:38,080 DEBUG    errbot.storage            Closed storage 'ACLS'
+2017-03-02 14:53:38,080 DEBUG    errbot.core               Removing command filter: acls
+2017-03-02 14:53:38,081 DEBUG    errbot.storage            Closed storage 'Backup'
+2017-03-02 14:53:38,081 DEBUG    errbot.storage            Closed storage 'Plugins'
+2017-03-02 14:53:38,082 DEBUG    errbot.storage            Closed storage 'Flows'
+2017-03-02 14:53:38,083 DEBUG    errbot.backends.text      Trigger shutdown
+2017-03-02 14:53:38,083 DEBUG    errbot.storage            Closed storage 'text_backend'
+2017-03-02 14:53:38,083 INFO     errbot.plugin_manager     Shutdown.
+2017-03-02 14:53:38,083 DEBUG    errbot.storage            Closed storage 'core'
+2017-03-02 14:53:38,083 INFO     errbot.plugin_manager     Bye.
+2017-03-02 14:53:38,083 DEBUG    errbot.storage            Closed storage 'repomgr'
+2017-03-02 14:53:38,083 INFO     errbot.cli                Process exiting
+2017-03-02 14:54:32,138 INFO     errbot.specific_plugin_manager storage search paths {'/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage'}
+2017-03-02 14:54:32,139 INFO     errbot.specific_plugin_manager Found those plugings available:
+2017-03-02 14:54:32,140 INFO     errbot.specific_plugin_manager 	    Memory  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/memory.py)
+2017-03-02 14:54:32,140 INFO     errbot.specific_plugin_manager 	     Shelf  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/shelf.py)
+2017-03-02 14:54:32,140 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2017-03-02 14:54:32,140 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2017-03-02 14:54:32,141 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:54:32,142 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2017-03-02 14:54:32,143 DEBUG    errbot.specific_plugin_manager Class to load ShelfStoragePlugin
+2017-03-02 14:54:32,143 DEBUG    errbot.storage            Opening storage 'repomgr'
+2017-03-02 14:54:32,143 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/repomgr.db
+2017-03-02 14:54:32,145 DEBUG    errbot.storage            Opening storage 'core'
+2017-03-02 14:54:32,145 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/core.db
+2017-03-02 14:54:32,147 INFO     errbot.specific_plugin_manager backends search paths {'/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends'}
+2017-03-02 14:54:32,154 INFO     errbot.specific_plugin_manager Found those plugings available:
+2017-03-02 14:54:32,154 INFO     errbot.specific_plugin_manager 	   Graphic  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/graphic.py)
+2017-03-02 14:54:32,154 INFO     errbot.specific_plugin_manager 	   Hipchat  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/hipchat.py)
+2017-03-02 14:54:32,154 INFO     errbot.specific_plugin_manager 	       IRC  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/irc.py)
+2017-03-02 14:54:32,154 INFO     errbot.specific_plugin_manager 	      Null  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/null.py)
+2017-03-02 14:54:32,155 INFO     errbot.specific_plugin_manager 	     Slack  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.py)
+2017-03-02 14:54:32,156 INFO     errbot.specific_plugin_manager 	  Telegram  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/telegram_messenger.py)
+2017-03-02 14:54:32,156 INFO     errbot.specific_plugin_manager 	      Test  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/test.py)
+2017-03-02 14:54:32,156 INFO     errbot.specific_plugin_manager 	      Text  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/text.py)
+2017-03-02 14:54:32,157 INFO     errbot.specific_plugin_manager 	      XMPP  (/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/xmpp.py)
+2017-03-02 14:54:32,157 INFO     errbot.bootstrap          Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2017-03-02 14:54:32,157 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2017-03-02 14:54:32,159 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:54:32,160 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:54:32,162 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:54:32,164 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:54:32,165 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:54:32,166 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:54:32,167 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:54:32,168 WARNING  yapsy                     Plugin candidate '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2017-03-02 14:54:32,168 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2017-03-02 14:54:32,210 DEBUG    errbot.specific_plugin_manager Class to load TextBackend
+2017-03-02 14:54:32,210 DEBUG    errbot.core               ErrBot init.
+2017-03-02 14:54:32,210 DEBUG    errbot.backends.base      Backend init.
+2017-03-02 14:54:32,212 DEBUG    errbot.core               created a thread pool of size 10.
+2017-03-02 14:54:32,213 DEBUG    errbot.backends.text      Text Backend Init.
+2017-03-02 14:54:32,234 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.smart_strong".
+2017-03-02 14:54:32,236 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
+2017-03-02 14:54:32,237 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.fenced_code".
+2017-03-02 14:54:32,237 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2017-03-02 14:54:32,239 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.footnotes".
+2017-03-02 14:54:32,240 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2017-03-02 14:54:32,247 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.attr_list".
+2017-03-02 14:54:32,248 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2017-03-02 14:54:32,249 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.def_list".
+2017-03-02 14:54:32,250 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2017-03-02 14:54:32,251 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.tables".
+2017-03-02 14:54:32,252 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2017-03-02 14:54:32,253 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.abbr".
+2017-03-02 14:54:32,253 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2017-03-02 14:54:32,254 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2017-03-02 14:54:32,254 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2017-03-02 14:54:32,286 DEBUG    errbot.core               Initializing backend storage
+2017-03-02 14:54:32,286 DEBUG    errbot.storage            Opening storage 'text_backend'
+2017-03-02 14:54:32,287 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/text_backend.db
+2017-03-02 14:54:32,289 DEBUG    errbot.plugin_manager     All plugin roots:
+2017-03-02 14:54:32,289 DEBUG    errbot.plugin_manager     -> /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins
+2017-03-02 14:54:32,290 DEBUG    errbot.plugin_manager     Add /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins to sys.path
+2017-03-02 14:54:32,290 DEBUG    errbot.plugin_manager     /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins has no requirements.txt file
+2017-03-02 14:54:32,462 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2017-03-02 14:54:32,463 DEBUG    errbot.bootstrap          Start serving commands from the text backend
+2017-03-02 14:54:32,463 INFO     errbot.core               Activate internal commands
+2017-03-02 14:54:32,463 INFO     errbot.plugin_manager     Activate bot plugins...
+2017-03-02 14:54:32,464 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2017-03-02 14:54:32,464 DEBUG    errbot.plugin_manager     Plugin ACLs has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:54:32,464 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:54:32,465 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:54:32,465 DEBUG    errbot.botplugin          Init storage for ACLS
+2017-03-02 14:54:32,465 DEBUG    errbot.storage            Opening storage 'ACLS'
+2017-03-02 14:54:32,465 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/ACLS.db
+2017-03-02 14:54:32,465 DEBUG    errbot.core               Adding command filter: acls
+2017-03-02 14:54:32,465 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2017-03-02 14:54:32,466 INFO     errbot.plugin_manager     Activate plugin: Backup
+2017-03-02 14:54:32,466 DEBUG    errbot.plugin_manager     Plugin Backup has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:54:32,466 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:54:32,466 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:54:32,466 DEBUG    errbot.botplugin          Init storage for Backup
+2017-03-02 14:54:32,466 DEBUG    errbot.storage            Opening storage 'Backup'
+2017-03-02 14:54:32,466 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Backup.db
+2017-03-02 14:54:32,467 DEBUG    errbot.core               Adding command : backup -> backup
+2017-03-02 14:54:32,467 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2017-03-02 14:54:32,467 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2017-03-02 14:54:32,467 DEBUG    errbot.plugin_manager     Plugin ChatRoom has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:54:32,467 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:54:32,467 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:54:32,467 DEBUG    errbot.botplugin          Init storage for ChatRoom
+2017-03-02 14:54:32,467 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2017-03-02 14:54:32,468 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/ChatRoom.db
+2017-03-02 14:54:32,468 DEBUG    errbot.core               Adding command : room_create -> room_create
+2017-03-02 14:54:32,468 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy
+2017-03-02 14:54:32,468 DEBUG    errbot.core               Adding command : room_invite -> room_invite
+2017-03-02 14:54:32,468 DEBUG    errbot.core               Adding command : room_join -> room_join
+2017-03-02 14:54:32,468 DEBUG    errbot.core               Adding command : room_leave -> room_leave
+2017-03-02 14:54:32,468 DEBUG    errbot.core               Adding command : room_list -> room_list
+2017-03-02 14:54:32,468 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants
+2017-03-02 14:54:32,468 DEBUG    errbot.core               Adding command : room_topic -> room_topic
+2017-03-02 14:54:32,468 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2017-03-02 14:54:32,469 INFO     errbot.plugin_manager     Activate plugin: Flows
+2017-03-02 14:54:32,469 DEBUG    errbot.plugin_manager     Plugin Flows has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:54:32,469 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:54:32,469 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:54:32,469 DEBUG    errbot.botplugin          Init storage for Flows
+2017-03-02 14:54:32,469 DEBUG    errbot.storage            Opening storage 'Flows'
+2017-03-02 14:54:32,469 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Flows.db
+2017-03-02 14:54:32,470 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill
+2017-03-02 14:54:32,470 DEBUG    errbot.core               Adding command : flows_list -> flows_list
+2017-03-02 14:54:32,470 DEBUG    errbot.core               Adding command : flows_show -> flows_show
+2017-03-02 14:54:32,470 DEBUG    errbot.core               Adding command : flows_start -> flows_start
+2017-03-02 14:54:32,470 DEBUG    errbot.core               Adding command : flows_status -> flows_status
+2017-03-02 14:54:32,470 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop
+2017-03-02 14:54:32,470 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2017-03-02 14:54:32,470 INFO     errbot.plugin_manager     Activate plugin: Health
+2017-03-02 14:54:32,470 DEBUG    errbot.plugin_manager     Plugin Health has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:54:32,471 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:54:32,471 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:54:32,471 DEBUG    errbot.botplugin          Init storage for Health
+2017-03-02 14:54:32,471 DEBUG    errbot.storage            Opening storage 'Health'
+2017-03-02 14:54:32,471 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Health.db
+2017-03-02 14:54:32,471 DEBUG    errbot.core               Adding command : restart -> restart
+2017-03-02 14:54:32,471 DEBUG    errbot.core               Adding command : shutdown -> shutdown
+2017-03-02 14:54:32,471 DEBUG    errbot.core               Adding command : status -> status
+2017-03-02 14:54:32,471 DEBUG    errbot.core               Adding command : status_gc -> status_gc
+2017-03-02 14:54:32,471 DEBUG    errbot.core               Adding command : status_load -> status_load
+2017-03-02 14:54:32,472 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins
+2017-03-02 14:54:32,472 DEBUG    errbot.core               Adding command : uptime -> uptime
+2017-03-02 14:54:32,472 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2017-03-02 14:54:32,472 INFO     errbot.plugin_manager     Activate plugin: Help
+2017-03-02 14:54:32,472 DEBUG    errbot.plugin_manager     Plugin Help has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:54:32,472 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:54:32,472 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:54:32,473 DEBUG    errbot.botplugin          Init storage for Help
+2017-03-02 14:54:32,473 DEBUG    errbot.storage            Opening storage 'Help'
+2017-03-02 14:54:32,473 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Help.db
+2017-03-02 14:54:32,473 DEBUG    errbot.core               Adding command : about -> about
+2017-03-02 14:54:32,473 DEBUG    errbot.core               Adding command : apropos -> apropos
+2017-03-02 14:54:32,473 DEBUG    errbot.core               Adding command : help -> help
+2017-03-02 14:54:32,473 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2017-03-02 14:54:32,474 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2017-03-02 14:54:32,474 DEBUG    errbot.plugin_manager     Plugin Plugins has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:54:32,474 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:54:32,474 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:54:32,474 DEBUG    errbot.botplugin          Init storage for Plugins
+2017-03-02 14:54:32,474 DEBUG    errbot.storage            Opening storage 'Plugins'
+2017-03-02 14:54:32,474 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Plugins.db
+2017-03-02 14:54:32,474 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate
+2017-03-02 14:54:32,475 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist
+2017-03-02 14:54:32,475 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config
+2017-03-02 14:54:32,475 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate
+2017-03-02 14:54:32,475 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload
+2017-03-02 14:54:32,475 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist
+2017-03-02 14:54:32,475 DEBUG    errbot.core               Adding command : repos -> repos
+2017-03-02 14:54:32,475 DEBUG    errbot.core               Adding command : repos_install -> repos_install
+2017-03-02 14:54:32,475 DEBUG    errbot.core               Adding command : repos_search -> repos_search
+2017-03-02 14:54:32,475 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall
+2017-03-02 14:54:32,475 DEBUG    errbot.core               Adding command : repos_update -> repos_update
+2017-03-02 14:54:32,475 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2017-03-02 14:54:32,476 INFO     errbot.plugin_manager     Activate plugin: Utils
+2017-03-02 14:54:32,476 DEBUG    errbot.plugin_manager     Plugin Utils has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:54:32,477 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:54:32,477 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:54:32,477 DEBUG    errbot.botplugin          Init storage for Utils
+2017-03-02 14:54:32,477 DEBUG    errbot.storage            Opening storage 'Utils'
+2017-03-02 14:54:32,477 DEBUG    errbot.storage.shelf      Open shelf storage /Users/shashank.koppar/Documents/errbot/plugins/data/Utils.db
+2017-03-02 14:54:32,477 DEBUG    errbot.core               Adding command : echo -> echo
+2017-03-02 14:54:32,477 DEBUG    errbot.core               Adding command : history -> history
+2017-03-02 14:54:32,477 DEBUG    errbot.core               Adding command : log_tail -> log_tail
+2017-03-02 14:54:32,477 DEBUG    errbot.core               Adding command : render_test -> render_test
+2017-03-02 14:54:32,477 DEBUG    errbot.core               Adding command : whoami -> whoami
+2017-03-02 14:54:32,478 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2017-03-02 14:54:32,478 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2017-03-02 14:54:32,478 DEBUG    errbot.plugin_manager     Plugin VersionChecker has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:54:32,478 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:54:32,478 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:54:32,478 INFO     errbot.plugins.VersionChecker Skip version checking under text mode
+2017-03-02 14:54:32,478 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2017-03-02 14:54:32,479 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2017-03-02 14:54:32,479 DEBUG    errbot.plugin_manager     Plugin Webserver has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2017-03-02 14:54:32,479 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.3.6 and max_version = 4.3.6
+2017-03-02 14:54:32,479 DEBUG    errbot.templating         Templates directory found for this plugin [/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/errbot/core_plugins/templates]
+2017-03-02 14:54:32,479 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2017-03-02 14:54:32,479 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2017-03-02 14:54:32,479 INFO     errbot.core_plugins.wsview Webhook routing echo
+2017-03-02 14:54:32,480 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2017-03-02 14:54:32,480 INFO     errbot.core               
+2017-03-02 14:54:32,480 INFO     errbot.core               Notifying connection to all the plugins...
+2017-03-02 14:54:32,480 DEBUG    errbot.core               Trigger callback_connect on ACLS
+2017-03-02 14:54:32,480 DEBUG    errbot.core               Trigger callback_connect on Backup
+2017-03-02 14:54:32,480 DEBUG    errbot.core               Trigger callback_connect on ChatRoom
+2017-03-02 14:54:32,480 INFO     errbot.plugins.ChatRoom   Callback_connect
+2017-03-02 14:54:32,480 DEBUG    errbot.core               Trigger callback_connect on Flows
+2017-03-02 14:54:32,480 DEBUG    errbot.core               Trigger callback_connect on Health
+2017-03-02 14:54:32,480 DEBUG    errbot.core               Trigger callback_connect on Help
+2017-03-02 14:54:32,480 DEBUG    errbot.core               Trigger callback_connect on Plugins
+2017-03-02 14:54:32,480 DEBUG    errbot.core               Trigger callback_connect on Utils
+2017-03-02 14:54:32,480 INFO     errbot.core               Plugin activation done.
+2017-03-02 14:54:32,480 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2017-03-02 14:54:32,480 DEBUG    errbot.core               Triggering callback_presence on Backup
+2017-03-02 14:54:32,480 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2017-03-02 14:54:32,481 DEBUG    errbot.core               Triggering callback_presence on Flows
+2017-03-02 14:54:32,481 DEBUG    errbot.core               Triggering callback_presence on Health
+2017-03-02 14:54:32,481 DEBUG    errbot.core               Triggering callback_presence on Help
+2017-03-02 14:54:32,481 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2017-03-02 14:54:32,481 DEBUG    errbot.core               Triggering callback_presence on Utils
+2017-03-02 14:54:35,511 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-03-02 14:54:35,511 DEBUG    errbot.core               *** username = CHANGE ME
+2017-03-02 14:54:35,511 DEBUG    errbot.core               *** text = !plugins
+2017-03-02 14:54:35,511 DEBUG    errbot.core               Command not found
+2017-03-02 14:54:35,513 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-03-02 14:54:35,513 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-03-02 14:54:35,513 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-03-02 14:54:35,513 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-03-02 14:54:35,514 DEBUG    errbot.core               Triggering callback_message on Health
+2017-03-02 14:54:35,514 DEBUG    errbot.core               Triggering callback_message on Help
+2017-03-02 14:54:35,514 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-03-02 14:54:35,514 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-03-02 14:54:39,252 DEBUG    errbot.core               *** frm = CHANGE ME
+2017-03-02 14:54:39,252 DEBUG    errbot.core               *** username = CHANGE ME
+2017-03-02 14:54:39,252 DEBUG    errbot.core               *** text = !repos
+2017-03-02 14:54:39,252 DEBUG    errbot.plugins.ACLS       Check repos for ACLs.
+2017-03-02 14:54:39,253 INFO     errbot.plugins.ACLS       Matching ACL {} against username CHANGE ME for command Plugins:repos
+2017-03-02 14:54:39,253 INFO     errbot.plugins.ACLS       Check if repos is admin only command.
+2017-03-02 14:54:39,253 INFO     errbot.core               Processing command 'repos' with parameters '' from CHANGE ME
+2017-03-02 14:54:39,253 DEBUG    errbot.core               Triggering callback_message on ACLS
+2017-03-02 14:54:39,253 DEBUG    errbot.core               Triggering callback_message on Backup
+2017-03-02 14:54:39,254 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2017-03-02 14:54:39,254 DEBUG    errbot.core               Triggering callback_message on Flows
+2017-03-02 14:54:39,254 DEBUG    errbot.core               Triggering callback_message on Health
+2017-03-02 14:54:39,254 DEBUG    errbot.core               Triggering callback_message on Help
+2017-03-02 14:54:39,254 DEBUG    errbot.core               Triggering callback_message on Plugins
+2017-03-02 14:54:39,254 DEBUG    errbot.core               Triggering callback_message on Utils
+2017-03-02 14:54:39,254 DEBUG    errbot.flow               Test if the command repos is a trigger for an inflight flow ...
+2017-03-02 14:54:39,254 DEBUG    errbot.flow               None matched.
+2017-03-02 14:54:39,266 DEBUG    errbot.flow               Test if the command repos is a trigger for an inflight flow ...
+2017-03-02 14:54:39,266 DEBUG    errbot.flow               None matched.
+2017-03-02 14:54:39,266 DEBUG    errbot.flow               Test if the command repos is an auto-trigger for any flow ...
+2017-03-02 14:54:41,601 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2017-03-02 14:54:41,601 DEBUG    errbot.core               Triggering callback_presence on Backup
+2017-03-02 14:54:41,602 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2017-03-02 14:54:41,602 DEBUG    errbot.core               Triggering callback_presence on Flows
+2017-03-02 14:54:41,602 DEBUG    errbot.core               Triggering callback_presence on Health
+2017-03-02 14:54:41,602 DEBUG    errbot.core               Triggering callback_presence on Help
+2017-03-02 14:54:41,602 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2017-03-02 14:54:41,602 DEBUG    errbot.core               Triggering callback_presence on Utils
+2017-03-02 14:54:41,602 DEBUG    errbot.backends.text      Trigger disconnect callback
+2017-03-02 14:54:41,602 INFO     errbot.core               Disconnect callback, deactivating all the plugins.
+2017-03-02 14:54:41,603 DEBUG    errbot.storage            Closed storage 'ChatRoom'
+2017-03-02 14:54:41,604 DEBUG    errbot.storage            Closed storage 'ACLS'
+2017-03-02 14:54:41,604 DEBUG    errbot.core               Removing command filter: acls
+2017-03-02 14:54:41,604 DEBUG    errbot.storage            Closed storage 'Plugins'
+2017-03-02 14:54:41,605 DEBUG    errbot.storage            Closed storage 'Backup'
+2017-03-02 14:54:41,606 DEBUG    errbot.storage            Closed storage 'Help'
+2017-03-02 14:54:41,606 DEBUG    errbot.storage            Closed storage 'Health'
+2017-03-02 14:54:41,607 DEBUG    errbot.storage            Closed storage 'Flows'
+2017-03-02 14:54:41,608 DEBUG    errbot.storage            Closed storage 'Utils'
+2017-03-02 14:54:41,608 DEBUG    errbot.backends.text      Trigger shutdown
+2017-03-02 14:54:41,608 DEBUG    errbot.storage            Closed storage 'text_backend'
+2017-03-02 14:54:41,608 INFO     errbot.plugin_manager     Shutdown.
+2017-03-02 14:54:41,608 DEBUG    errbot.storage            Closed storage 'core'
+2017-03-02 14:54:41,608 INFO     errbot.plugin_manager     Bye.
+2017-03-02 14:54:41,608 DEBUG    errbot.storage            Closed storage 'repomgr'
+2017-03-02 14:54:41,608 INFO     errbot.cli                Process exiting
